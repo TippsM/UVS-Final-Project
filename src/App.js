@@ -3,7 +3,6 @@ import SearchBar from './Components/Searchbar';
 import Navbar from './Components/Navigation-menu';
 import React, { useState } from 'react';
 
-
 function App() {
 
   const [queries, setQueries] = useState(() => {
