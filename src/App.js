@@ -22,23 +22,15 @@ function App() {
   };
 
   return (
-    <div className="App">
-        <header className="App-header">
-          <Navbar/>
-        <div className='page-container'>
-          <h2 className="page-title">Ryder Used Vehicle Inventory</h2>
-          <h3 className="page-sub"> Search Used Vehicles </h3>
-          <SearchBar onSearch={handleSearch} />
-          <div className="query-history">
-          <h4>Search History:</h4>
-            <ul>
-              {queries.map((query, index) => (
-              <li key={index}>{query}</li>
-              ))}
-           </ul>
-          </div>
-        </div> 
-      </header>
+    <div className="navbar-container">
+      <Navbar />
+      <div className="navbar-spacer">
+        <li className="page-title">Ryder Used Vehicle Inventory</li>
+      </div>
+      <h3 className="page-sub">Search Used Vehicles</h3>
+      <div className="search-bar-container">
+        <SearchBar onSearch={handleSearch} />
+      </div>
     </div>
   );
 }
@@ -46,3 +38,11 @@ function App() {
 export default App;
 
 
+{/* <div className="query-history">
+          <h4>Search History:</h4>
+            <ul>
+              {queries.map((query, index) => (
+              <li key={index}>{query}</li>
+              ))}
+           </ul>
+          </div> */}

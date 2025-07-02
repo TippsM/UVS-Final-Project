@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Styles/SearchBar.css';
+import '../Styles/App.css';
 import searchLogo from '../Logos/search-logo.svg';
 
 
@@ -14,22 +14,27 @@ function SearchBar({ onSearch }) {
   };
 
   return (
-    <form className="search-bar" onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Search for trucks... e.g. '2018 small white refridgerated'"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-      />
-      <button type="submit">Search Vehicles
-        <img
-        src={searchLogo}
-        alt="Search Logo"
-        className="search-logo"
+    <form onSubmit={handleSubmit} className='search-bar-form'>
+      <div className="search-container">
+        <input className='searchbar'
+          type="text"
+          placeholder="Search for trucks... e.g. '2018 small white refrigerated'"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
         />
-      </button>
+  
+        <button className="search-button" type="submit">
+          Search Vehicles
+          <img
+            src={searchLogo}
+            alt="Search Logo"
+            className="search-logo"
+          />
+        </button>
+      </div>
     </form>
   );
 }
+  
 
 export default SearchBar;
