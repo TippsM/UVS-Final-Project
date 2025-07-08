@@ -1,0 +1,108 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+  margin-top: 100px;
+}
+
+.truck-card{
+    background: #ffffff;
+    border-radius: 10px;
+    color:black;
+    border-color: #d72525aa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 1rem;
+    width: 250px;
+    height: 250px;
+    padding-top: 90px; 
+    position: relative;
+}
+
+.truck-card-head{
+    cursor: pointer;
+    height: 160px;
+    top: -90px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    object-fit: cover;
+    display: block;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.vehicle_number{
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0;
+    color: #76757a !important;
+}
+
+.certified{
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+    color: #ce1126 !important;
+
+}
+
+.vehicle_brand{
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -10px;
+    color: #76757a !important;
+
+}
+
+.vehicle_model{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -10px;
+    color: #1d1f21 !important;
+}
+
+.vehicle_price{
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -10px;
+    color: #76757a !important;
+
+}
+
+.text{
+    font-size: 16px;
+    text-align: left;
+    margin-top: -10px;
+    justify-content: space-between;
+    color: #76757a !important;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    flex-direction: row;
+    display: flex;
+}
+

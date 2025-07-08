@@ -19,8 +19,8 @@ html, body {
 }
 
 .navbar-logo {
-    display: flex;
-    align-items: center;    
+  display: flex;
+  align-items: center;    
 }
 
 .logo-ryder{
