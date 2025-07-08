@@ -1,5 +1,5 @@
-altair==5.5.0
-altgraph @ file:///AppleInternal/Library/BuildRoots/bcce998f-ff34-11ef-9d34-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
+npmaltair==5.5.0
+altgraph==0.17.2
 appnope==0.1.4
 asttokens==3.0.0
 attrs==25.3.0
@@ -19,7 +19,7 @@ Flask==3.1.1
 flask-cors==6.0.1
 folium==0.19.5
 fsspec==2025.5.1
-future @ file:///AppleInternal/Library/BuildRoots/bcce998f-ff34-11ef-9d34-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
+future==0.18.2
 gitdb==4.0.12
 GitPython==3.1.44
 hf-xet==1.1.5
