@@ -41,8 +41,13 @@ function App() {
             vehicle_number={card.vehicle_number}
             vehicle_brand={card.vehicle_brand}
             vehicle_model={card.vehicle_model}
-            certified={card.certified} 
-            price={card.price}/>
+            vehicle_tag={card.vehicle_tag} 
+            price={card.price}
+            year={card.year}
+            odometer={card.odometer}
+            gross_weight={card.gross_weight}
+            rear_axle_type={card.rear_axle_type}
+            transmission={card.transmission}/>
           ))}
         </div>
       </header>
