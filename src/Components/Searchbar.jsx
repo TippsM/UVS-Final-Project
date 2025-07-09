@@ -16,7 +16,7 @@ function SearchBar({ onSearch }) {
   return (
     <form onSubmit={handleSubmit} className='search-bar-form'>
       <div className="search-container">
-        <input className='searchbar'
+        <input className='search-bar'
           type="text"
           placeholder="Search for trucks... e.g. '2018 small white refrigerated'"
           value={query}

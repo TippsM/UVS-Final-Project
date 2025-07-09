@@ -1,4 +1,4 @@
-.search-bar {
+.search-container {
   display: flex;
   justify-content: flex-start;
   width: 90vw;
@@ -6,17 +6,19 @@
   
 }
 
-.search-bar input {
+.search-container input {
   padding: 10px 15px;
   font-family: Roboto, sans serif;
   border-radius: 8px;
   width: 70%;
-  height: 30px;
+  height: 50px;
   font-size: 16px;
-  border: none;
+  align-items: center;
+  
 }
 
-.search-bar button {
+
+.search-button {
   padding: 10px 10px;
   font-size: 15px;
   background-color: #e43235;
@@ -37,10 +39,10 @@
 
 }
 
-.search-bar button:hover {
+.search-button:hover {
   background-color: #820000;
 }
 
-.search-bar button:active{
+.search-button:active{
   background-color: rgb(255, 135, 135);
 }
