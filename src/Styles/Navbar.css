@@ -1,22 +1,17 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;  
-}
-
-.navbar {
+.navbar{
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
-  padding: 15px 30px;
-  color: rgb(8, 8, 8);
-  font-family:  Roboto, sans-serif;
-  width: 100%;
-  height: 50px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
-
+  background: #ffffff;
+  padding: 15px 3%;
+  top: 0;
+  left: 0;
+  height: 140px;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 .navbar-logo {
   display: flex;
@@ -24,7 +19,7 @@ html, body {
 }
 
 .logo-ryder{
-  height: 33px;
+  height: 60px;
   width: auto;
   margin-left: 20px;
   cursor: pointer;
@@ -33,16 +28,15 @@ html, body {
 .navbar-menu {
   list-style: none;
   display: flex;
-  gap: 25px;
-  margin-right: 31%;
-  padding: 0;
+  align-items: center;
+  gap: 20px;
 }
 
 .navbar-menu li {
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 18px;
   gap: 5px;
   position: relative;
   color: black;
@@ -59,16 +53,17 @@ html, body {
   align-items: center;
   gap: 10px;
   margin-right: 60px;
+  padding: 20px 10px;
 }
 
 .search-icon {
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
   line-height: 1;
 }
 
 .contact-button {
-  padding: 10px 14px;
+  padding: 15px 20px;
   background-color: #e43235;
   color: rgb(253, 251, 251);
   font-weight: bold;
@@ -77,9 +72,8 @@ html, body {
   cursor: pointer;
   margin-left: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
+  font-size: 17px;
 }
-
-
 
 
 .contact-button:hover {
@@ -101,13 +95,13 @@ html, body {
 }
 
 .flag-icon {
-  height: 16px;
+  height: 30px;
   width: auto;
   border-radius: 2px;
 }
 
 .flag-arrow {
-  font-size: 10px;
+  font-size: 20px;
   color: rgb(196, 195, 195);
   margin-right: 15px;
   cursor: pointer;
