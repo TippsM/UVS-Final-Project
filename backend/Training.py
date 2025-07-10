@@ -6,11 +6,44 @@ import os
 import torch.nn.functional as F
 import math
  
-# Clear invalid proxy settings
-os.environ.pop("HTTP_PROXY", None)
-os.environ.pop("HTTPS_PROXY", None)
-os.environ.pop("http_proxy", None)
-os.environ.pop("https_proxy", None)
+
+# Search query (example search bar..)
+query = input("Search for a vehicle: ")
+
+   
+with open("../Data/flat-vehicle-specs.txt", "r", encoding="utf-8") as f:
+    text_to_embed = [line.strip() for line in f.readlines()]
+
+
+
+
+model = SentenceTransformer(r"C:\Users\00431753\all-MiniLM-L6-v2")
+embeddings = model.encode(text_to_embed, convert_to_tensor = True)
+
+
+
+
+def search(query, top_k=10):
+    query_embedding = model.encode(query, convert_to_tensor=True)
+    similarities = F.cosine_similarity(query_embedding.unsqueeze(0), embeddings)
+
+    actual_k = min(top_k, len(similarities))
+    if actual_k == 0:
+        return [], []
+
+    top_results = torch.topk(similarities, k=actual_k)
+    top_indices = top_results.indices.tolist()
+    top_scores = top_results.values.tolist()
+    return top_indices, top_scores
+
+
+top_indices, top_scores = search(query)
+
+for idx, score in zip(top_indices, top_scores):
+    print(f"Score: {score:.4f * 100}")
+    print(f"Match: {text_to_embed[idx]}")
+    print("--------")
+
 
 ##code to read json into flat file and save into file to then feed into embedding 
 
@@ -79,42 +112,3 @@ os.environ.pop("https_proxy", None)
 # with open("flat-vehicle-specs.txt", "w", encoding="utf-8") as f:
 #    for line in text_to_embed:
 #         f.write(line + "\n")
-
-
-   
-   
-with open("Data\\flat-vehicle-specs.txt", "r", encoding="utf-8") as f:
-    text_to_embed = [line.strip() for line in f.readlines()]
-
-
-
-
-
-model = SentenceTransformer(r"C:\Users\00432491\all-MiniLM-L6-v2")
-embeddings = model.encode(text_to_embed, convert_to_tensor = True)
-
-
-
-
-def search(query, top_k=10):
-    query_embedding = model.encode(query, convert_to_tensor=True)
-    similarities = F.cosine_similarity(query_embedding.unsqueeze(0), embeddings)
-
-    actual_k = min(top_k, len(similarities))
-    if actual_k == 0:
-        return [], []
-
-    top_results = torch.topk(similarities, k=actual_k)
-    top_indices = top_results.indices.tolist()
-    top_scores = top_results.values.tolist()
-    return top_indices, top_scores
-
-
-query = "I want a white truck with low miles and refrigerated"
-top_indices, top_scores = search(query)
-
-for idx, score in zip(top_indices, top_scores):
-    print(f"Score: {score:.4f}")
-    print(f"Match: {text_to_embed[idx]}")
-    print("--------")
-    
