@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import '../Styles/App.css';
-import searchLogo from '../Logos/search-logo.svg';
+import searchLogo from '../assets/search-logo.svg';
 
 
 function SearchBar({ onSearch }) {
   const [query, setQuery] = useState('');
+
 
   const handleSubmit = (e) => {
     e.preventDefault();

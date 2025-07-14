@@ -1,7 +1,7 @@
 #code to read json into flat file and save into file to then feed into embedding 
 import json
 
-with open('../Data/vehicle-specs.json','r') as f:
+with open('../Data/truck-specs2.0.json','r') as f:
     content=json.load(f)
 
 vehicles= content['VehicleNumber']
@@ -13,7 +13,7 @@ text_to_embed = []
 for vehicle_id, specs in vehicles.items():
     
     price = specs.get("ASK PRICE", "")
-    img_url = specs.get("IMAGE URL", "")
+    img_url = specs.get("IMAGE URL1", "")
     make = specs.get("CHASSIS MAKE DESC","")
     year = specs.get("Year","")
     transmission_type = specs.get("Transmission Type","")
@@ -38,6 +38,7 @@ for vehicle_id, specs in vehicles.items():
     f"Img Url: {img_url}"
 )
     text_to_embed.append(text)
+
 
 
 with open("truck-card-specs.txt", "w", encoding="utf-8") as f:

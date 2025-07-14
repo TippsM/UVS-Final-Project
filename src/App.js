@@ -2,8 +2,8 @@ import './Styles/App.css'; // this stays the same (unless you move it too)
 import SearchBar from './Components/Searchbar';
 import Navbar from './Components/Navigation-menu';
 import React, { useState } from 'react';
-import { mycards } from './Logos/mycards';
 import TruckCards from './Components/truck-cards.jsx'
+import TruckData from './Components/truck-list.jsx'
 
 
 function App() {
@@ -33,23 +33,7 @@ function App() {
           <h3 className="page-sub"> Search Used Vehicles </h3>
           <SearchBar onSearch={handleSearch} />
         </div> 
-        <div className="card-container">
-          {mycards.map((card, index) => (
-            <TruckCards
-            key={index}
-            img={card.img}
-            vehicle_number={card.vehicle_number}
-            vehicle_brand={card.vehicle_brand}
-            vehicle_model={card.vehicle_model}
-            vehicle_tag={card.vehicle_tag} 
-            price={card.price}
-            year={card.year}
-            odometer={card.odometer}
-            gross_weight={card.gross_weight}
-            rear_axle_type={card.rear_axle_type}
-            transmission={card.transmission}/>
-          ))}
-        </div>
+        <TruckData/>
       </header>
     </div>
   );
