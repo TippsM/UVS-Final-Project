@@ -1,8 +1,8 @@
 import React from 'react';
 import '../Styles/Navbar.css';
 import { FaSearch, FaChevronDown } from 'react-icons/fa';
-import ryderLogo from '../Logos/logo-ryder.svg';
-import usLogo from '../Logos/us-flag.svg';
+import ryderLogo from '../assets/logo-ryder.svg';
+import usLogo from '../assets/us-flag.svg';
 
 
 
