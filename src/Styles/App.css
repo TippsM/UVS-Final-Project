@@ -59,7 +59,7 @@
 
 .page-title {
   color: rgb(41, 41, 41);
-  font-size: 44px;  
+  font-size: clamp(20px, 44px, 50px);
   font-family: Roboto, sans-serif;
   margin-right: 50vw;
   display: block;
@@ -67,6 +67,7 @@
   margin-block-end: 0.67em;
   font-weight: bold;
   unicode-bidi: isolate;
+  white-space: nowrap;
 }
 
 
