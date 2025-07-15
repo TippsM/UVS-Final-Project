@@ -17,9 +17,8 @@ with open("../Data/flat-vehicle-specs.txt", "r", encoding="utf-8") as f:
 
 
 
-model = SentenceTransformer(r"C:\Users\00431753\all-MiniLM-L6-v2")
+model = SentenceTransformer(r"nlp_model\all-MiniLM-L6-v2")
 embeddings = model.encode(text_to_embed, convert_to_tensor = True)
-
 
 
 
@@ -40,7 +39,7 @@ def search(query, top_k=10):
 top_indices, top_scores = search(query)
 
 for idx, score in zip(top_indices, top_scores):
-    print(f"Score: {score:.4f * 100}")
+    print(f"Score: {score:.4f}")
     print(f"Match: {text_to_embed[idx]}")
     print("--------")
 
