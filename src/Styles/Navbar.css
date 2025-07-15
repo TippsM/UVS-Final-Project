@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background: #ffffff;
-  padding: 15px 3%;
+  padding: 15px 1%;
   top: 0;
   left: 0;
   height: 140px;
@@ -20,9 +20,10 @@
 }
 
 .logo-ryder{
-  height: 60px;
+  height: clamp(30px, 40px, 60px);
   width: auto;
-  margin-left: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
   cursor: pointer;
 }
 
@@ -37,11 +38,12 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: 18px;
-  gap: 5px;
+  font-size: clamp(12px, 14px, 20px);
   position: relative;
   color: black;
   font-weight: bold;
+    white-space: nowrap;
+
 
 }
 
@@ -64,16 +66,17 @@
 }
 
 .contact-button {
-  padding: 15px 20px;
+  padding: 10px 10px;
   background-color: #e43235;
   color: rgb(253, 251, 251);
   font-weight: bold;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
-  font-size: 17px;
+  font-size: clamp(12px, 10px, 17px);
+  white-space: nowrap;
+
 }
 
 
@@ -96,15 +99,16 @@
 }
 
 .flag-icon {
-  height: 30px;
-  width: auto;
+  height: clamp(15px, 20px, 30px);
+  margin-left: 15px;
   border-radius: 2px;
 }
 
 .flag-arrow {
   font-size: 20px;
   color: rgb(196, 195, 195);
-  margin-right: 15px;
   cursor: pointer;
+  margin-right: 10px;
+  width: 100%;
 
 }

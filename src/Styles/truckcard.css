@@ -4,7 +4,7 @@
   justify-content: center;
   padding: 1rem;
   gap: 1rem;
-  margin-top: 10vh;
+  margin-top: 12vh;
   margin-left: 20vh;
   margin-right: 20vh;
 }
@@ -18,10 +18,10 @@
   padding: clamp(1rem, 2vw, 2rem);
   margin: clamp(0.5rem, 2vw, 1rem);
   width: clamp(120px, 25vw, 280px);
-  height: clamp(160px, 30vw, 320px);
+  height: clamp(160px, 350px, 360px);
   padding-top: clamp(60px, 6vw, 90px);
   position: relative;
-  margin-bottom: 10vh;
+  margin-bottom: 12vh;
 }
 
 
@@ -148,8 +148,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
+    gap: 5px;
 }
 
 
@@ -171,7 +170,7 @@
     font-weight: bold;
 }
 
-.next-button, .back-button{
+.next-button, .back-button, .first-page-button, .last-page-button{
     background-color: #ffffff;
     height: 30px;
     width: 60px;
@@ -180,11 +179,11 @@
 }
 
 
-.next-button:hover, .back-button:hover{
+.next-button:hover, .back-button:hover, .first-page-button:hover, .last-page-button:hover{
     background-color: #efefef;
 }
 
-.next-button:active, .back-button:active{
+.next-button:active, .back-button:active, .first-page-button:active, .last-page-button:active{
     background-color: #e4e4e4;
 }
 
@@ -198,7 +197,8 @@
 .vehicle-type-block,
 .mid-text,
 .mid_text-info {
-  font-size: clamp(0.5rem, 0.8vw, 1.5rem);
+  font-size: clamp(12px, 14px, 18px);
+  margin-top: 10px;
 }
 
 

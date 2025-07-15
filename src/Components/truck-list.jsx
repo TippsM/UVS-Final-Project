@@ -4,11 +4,13 @@ import TruckCard from './truck-cards';
 import '../Styles/App.css';
 
 export default function TruckList() {
+
+
   const [allTrucks, setAllTrucks] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
 
-  const trucksPerPage = 12;
-  const maxPage = Math.ceil(allTrucks.length / trucksPerPage) - 1;
+  const truckCount = 12;
+  const maxPage = Math.ceil(allTrucks.length / truckCount) - 1;
 
   useEffect(() => {
     fetch(truckData)
@@ -20,20 +22,44 @@ export default function TruckList() {
       });
   }, []);
 
-  const paginatedTrucks = allTrucks.slice(
-    currentPage * trucksPerPage,
-    (currentPage + 1) * trucksPerPage
+  const trucksPerPage = allTrucks.slice(
+    currentPage * truckCount,
+    (currentPage + 1) * truckCount
   );
+
+  const priorityList = []
+
+  allTrucks.sort((a, b) => {
+
+    const first = priorityList.indexOf(a["Vehicle ID"]);
+    const second = priorityList.indexOf(b["Vehicle ID"]);
+
+    if (first === -1) return 1; // first truck always goes first
+    if (second === -1) return -1; // other trucks follow the first respectivly
+
+    return first - second; // sort by order of the list (like a queue)
+
+  });
+
 
   return (
     <div>
       <div className="card-container">
-        {paginatedTrucks.map((truck) => (
+        {trucksPerPage.map((truck) => (
           <TruckCard key={truck["Vehicle ID"]} truck={truck} />
         ))}
       </div>
 
       <div className='button-container'>
+
+        <button className='first-page-button'
+        onClick={() => setCurrentPage((0))}
+        disabled={currentPage === 0}
+        >
+        First
+        </button>
+
+
         <button className='back-button'
         onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 0))}
         disabled={currentPage === 0}
@@ -50,6 +76,13 @@ export default function TruckList() {
         disabled={currentPage >= maxPage}
         >
         Next
+        </button>
+
+        <button className='first-page-button'
+        onClick={() => setCurrentPage((maxPage))}
+        disabled={currentPage === maxPage}
+        >
+        Last
         </button>
       </div>
     </div>

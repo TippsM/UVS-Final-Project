@@ -29,7 +29,7 @@ function App() {
         <header className="App-header">
           <Navbar/>
         <div className='page-container'>
-          <h2 className="page-title">Ryder Used Vehicle Inventory</h2>
+          <p className="page-title">Ryder Used Vehicle Inventory</p>
           <h3 className="page-sub"> Search Used Vehicles </h3>
           <SearchBar onSearch={handleSearch} />
         </div> 
