@@ -1,4 +1,4 @@
-ÿþimport json
+import json
 from torch import nn
 import torch
 from sentence_transformers import SentenceTransformer
@@ -217,4 +217,4 @@ else:
 
 # with open("flat-vehicle-specs.txt", "w", encoding="utf-8") as f:
 #    for line in text_to_embed:
-#         f.write(line + "\n")
+#         f.write(line + "\n")
