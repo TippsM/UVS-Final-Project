@@ -3,7 +3,9 @@ import truckData from '../assets/truck-card-specs.txt';
 import TruckCard from './truck-cards';
 import '../Styles/App.css';
 
-export default function TruckList() {
+export default function TruckList( {queries} ) {
+
+  //console.log("All saved queries: ", queries)
 
 
   const [allTrucks, setAllTrucks] = useState([]);
@@ -31,8 +33,8 @@ export default function TruckList() {
 
   allTrucks.sort((a, b) => {
 
-    const truckOne = priorityList.indexOf(a["Vehicle ID"]);
-    const truckTwo = priorityList.indexOf(b["Vehicle ID"]);
+    const truckOne = queries.indexOf(a["Vehicle ID"]);
+    const truckTwo = queries.indexOf(b["Vehicle ID"]);
 
     if (truckOne === -1) return 1; // put a after b
     if (truckTwo === -1) return -1; // put b after a

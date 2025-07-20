@@ -2,7 +2,6 @@ import './Styles/App.css'; // this stays the same (unless you move it too)
 import SearchBar from './Components/Searchbar';
 import Navbar from './Components/Navigation-menu';
 import React, { useState } from 'react';
-import TruckCards from './Components/truck-cards.jsx'
 import TruckData from './Components/truck-list.jsx'
 
 
@@ -21,6 +20,8 @@ function App() {
     const updatedQueries = [...existing, query];
     setQueries(updatedQueries);
     localStorage.setItem('queries', JSON.stringify(updatedQueries));
+
+    //return updatedQueries;
     console.log("All saved queries: ", updatedQueries)
   };
 
@@ -33,7 +34,7 @@ function App() {
           <h3 className="page-sub"> Search Used Vehicles </h3>
           <SearchBar onSearch={handleSearch} />
         </div> 
-        <TruckData/>
+        <TruckData queries={queries[queries.length - 1]}/>
       </header>
     </div>
   );
