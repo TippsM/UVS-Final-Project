@@ -29,12 +29,12 @@ export default function TruckList( {queries} ) {
     (currentPage + 1) * truckCount
   );
 
-  const priorityList = ['201450', '996769', '222534', '222279', '899258', '200294']
+  const priorityList = ['671122', '670953', '670957', '374908', '559997', '881697', '314042', '881987', '771971', '881979']
 
   allTrucks.sort((a, b) => {
 
-    const truckOne = queries.indexOf(a["Vehicle ID"]);
-    const truckTwo = queries.indexOf(b["Vehicle ID"]);
+    const truckOne = priorityList.indexOf(a["Vehicle ID"]);
+    const truckTwo = priorityList.indexOf(b["Vehicle ID"]);
 
     if (truckOne === -1) return 1; // put a after b
     if (truckTwo === -1) return -1; // put b after a
