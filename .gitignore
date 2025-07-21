@@ -17,7 +17,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
-
+/.vs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -29,3 +29,5 @@ yarn-error.log*
 /.vs/UVS-Final-Project/FileContentIndex/cf1044f7-0528-4da5-b4fe-28efee650bf8.vsidx
 /.vs/slnx.sqlite
 /.vs/UVS-Final-Project/FileContentIndex/9e70ef2b-a476-4b74-96ea-8c7263c25af7.vsidx
+/.vs/UVS-Final-Project/FileContentIndex/eefdd21d-2ad6-4dbc-abcf-6d91ca765eaf.vsidx
+/.vs/UVS-Final-Project/FileContentIndex/4aa871eb-a104-4a24-88e1-8e87568fa3f3.vsidx
