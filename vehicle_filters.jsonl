@@ -1,0 +1,600 @@
+{"tokens": ["Freightliner", "6.5", "gear", "ratio", "2", "axles", "black", "2022"], "tags": ["B-Make", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles", "B-Color", "B-Year"]}
+{"tokens": ["diesel", "no", "reefer"], "tags": ["B-FuelType", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["insulation", "van", "2018"], "tags": ["B-BodyType", "I-BodyType", "B-Year"]}
+{"tokens": ["gasoline", "Cummins", "Engine", "Co.", "8", "speed", "6.5", "gear", "ratio", "2019"], "tags": ["B-FuelType", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Year"]}
+{"tokens": ["electric", "crew", "cab", "2019", "6.5", "gear", "ratio"], "tags": ["B-FuelType", "B-CrewCab", "I-CrewCab", "B-Year", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["crew", "cab", "diesel", "with", "reefer"], "tags": ["B-CrewCab", "I-CrewCab", "B-FuelType", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["Cummins", "600000", "miles", "Air", "brakes", "4", "axles", "no", "crew", "cab"], "tags": ["B-EngineMake", "B-Miles", "I-Miles", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["Freightliner/Mercedes", "silver"], "tags": ["B-Make", "B-Color"]}
+{"tokens": ["2", "axles", "Cummins", "Engine", "Co.", "Hydraulic", "brakes", "crew", "cab", "diesel", "no", "sleeper", "cab"], "tags": ["B-Axles", "I-Axles", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Brakes", "I-Brakes", "B-CrewCab", "I-CrewCab", "B-FuelType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["no", "reefer", "6", "speed", "2021"], "tags": ["B-HasReefer", "I-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Year"]}
+{"tokens": ["automatic", "transmission", "Mercedes", "Cummins", "non-reefer", "no", "sleeper", "cab"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Make", "B-EngineMake", "B-HasReefer", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["Hydraulic", "brakes", "2022"], "tags": ["B-Brakes", "I-Brakes", "B-Year"]}
+{"tokens": ["black", "manual", "transmission", "reefer", "van"], "tags": ["B-Color", "B-TransmissionType", "I-TransmissionType", "B-BodyType", "I-BodyType"]}
+{"tokens": ["600000", "miles", "6.5", "gear", "ratio", "electric", "non-reefer", "Cummins", "Engine", "Co.", "silver"], "tags": ["B-Miles", "I-Miles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-FuelType", "B-HasReefer", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Color"]}
+{"tokens": ["Hydraulic", "brakes", "blue", "electric"], "tags": ["B-Brakes", "I-Brakes", "B-Color", "B-FuelType"]}
+{"tokens": ["insulation", "van", "automatic", "transmission"], "tags": ["B-BodyType", "I-BodyType", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["250k", "miles", "2", "axles", "insulation", "van"], "tags": ["B-Miles", "I-Miles", "B-Axles", "I-Axles", "B-BodyType", "I-BodyType"]}
+{"tokens": ["2", "axles", "2019", "6.5", "gear", "ratio", "Air", "brakes", "Cummins"], "tags": ["B-Axles", "I-Axles", "B-Year", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Brakes", "I-Brakes", "B-EngineMake"]}
+{"tokens": ["white", "manual", "transmission", "Cummins", "reefer", "van"], "tags": ["B-Color", "B-TransmissionType", "I-TransmissionType", "B-EngineMake", "B-BodyType", "I-BodyType"]}
+{"tokens": ["diesel", "manual", "transmission", "dry", "van", "6", "speed", "Hydraulic", "brakes", "reefer"], "tags": ["B-FuelType", "B-TransmissionType", "I-TransmissionType", "B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Brakes", "I-Brakes", "B-HasReefer"]}
+{"tokens": ["2018", "Hydraulic", "brakes", "gray", "reefer"], "tags": ["B-Year", "B-Brakes", "I-Brakes", "B-Color", "B-HasReefer"]}
+{"tokens": ["6.5", "gear", "ratio", "Air", "brakes"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Brakes", "I-Brakes"]}
+{"tokens": ["dry", "van", "Mercedes", "600000", "miles", "crew", "cab", "2", "axles"], "tags": ["B-BodyType", "I-BodyType", "B-Make", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "B-Axles", "I-Axles"]}
+{"tokens": ["250k", "miles", "reefer", "van", "2021"], "tags": ["B-Miles", "I-Miles", "B-BodyType", "I-BodyType", "B-Year"]}
+{"tokens": ["sleeper", "cab", "6", "speed"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["no", "crew", "cab", "Hydraulic", "brakes", "electric", "Freightliner"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-FuelType", "B-Make"]}
+{"tokens": ["Air", "brakes", "Freightliner/Mercedes", "500k", "miles"], "tags": ["B-Brakes", "I-Brakes", "B-Make", "B-Miles", "I-Miles"]}
+{"tokens": ["diesel", "300,000", "miles", "manual", "transmission", "5.86", "gear", "ratio", "Cummins", "Engine", "Co."], "tags": ["B-FuelType", "B-Miles", "I-Miles", "B-TransmissionType", "I-TransmissionType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["Freightliner", "no", "crew", "cab", "red"], "tags": ["B-Make", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Color"]}
+{"tokens": ["2019", "Cummins", "500k", "miles", "sleeper", "cab", "Freightliner/Mercedes"], "tags": ["B-Year", "B-EngineMake", "B-Miles", "I-Miles", "B-SleeperCab", "I-SleeperCab", "B-Make"]}
+{"tokens": ["no", "crew", "cab", "no", "sleeper", "cab", "Cummins", "Engine", "Co.", "Freightliner"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Make"]}
+{"tokens": ["Air", "brakes", "no", "sleeper", "cab", "automatic", "transmission", "crew", "cab", "3", "axles", "Cummins"], "tags": ["B-Brakes", "I-Brakes", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab", "B-Axles", "I-Axles", "B-EngineMake"]}
+{"tokens": ["silver", "Air", "brakes", "8", "speed"], "tags": ["B-Color", "B-Brakes", "I-Brakes", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Mercedes", "600000", "miles", "flatbed"], "tags": ["B-Make", "B-Miles", "I-Miles", "B-BodyType"]}
+{"tokens": ["insulation", "van", "red"], "tags": ["B-BodyType", "I-BodyType", "B-Color"]}
+{"tokens": ["6", "speed", "diesel", "Air", "brakes", "Cummins", "no", "sleeper", "cab"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-FuelType", "B-Brakes", "I-Brakes", "B-EngineMake", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["6", "speed", "box", "truck", "Freightliner/Mercedes", "2019", "manual", "transmission", "2", "axles"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-BodyType", "I-BodyType", "B-Make", "B-Year", "B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles"]}
+{"tokens": ["5.86", "gear", "ratio", "Freightliner", "2018", "manual", "transmission", "crew", "cab", "sleeper", "cab"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Make", "B-Year", "B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["silver", "with", "reefer", "crew", "cab", "flatbed", "electric"], "tags": ["B-Color", "B-HasReefer", "I-HasReefer", "B-CrewCab", "I-CrewCab", "B-BodyType", "B-FuelType"]}
+{"tokens": ["manual", "transmission", "hybrid", "4", "axles", "no", "sleeper", "cab", "Cummins", "Engine", "Co."], "tags": ["B-TransmissionType", "I-TransmissionType", "B-FuelType", "B-Axles", "I-Axles", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["no", "crew", "cab", "250k", "miles", "dry", "van", "no", "sleeper", "cab"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-BodyType", "I-BodyType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["diesel", "6", "speed", "Cummins", "no", "sleeper", "cab", "5.86", "gear", "ratio"], "tags": ["B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Mercedes", "gray", "no", "sleeper", "cab", "diesel", "2", "axles", "2018"], "tags": ["B-Make", "B-Color", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-FuelType", "B-Axles", "I-Axles", "B-Year"]}
+{"tokens": ["gasoline", "500k", "miles", "Freightliner/Mercedes", "automatic", "transmission"], "tags": ["B-FuelType", "B-Miles", "I-Miles", "B-Make", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["300,000", "miles", "Freightliner/Mercedes"], "tags": ["B-Miles", "I-Miles", "B-Make"]}
+{"tokens": ["insulation", "van", "300,000", "miles", "non-reefer", "10", "speed"], "tags": ["B-BodyType", "I-BodyType", "B-Miles", "I-Miles", "B-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["black", "no", "reefer", "6.5", "gear", "ratio", "Mercedes", "Hydraulic", "brakes", "crew", "cab"], "tags": ["B-Color", "B-HasReefer", "I-HasReefer", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Make", "B-Brakes", "I-Brakes", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["Freightliner", "no", "crew", "cab", "300,000", "miles", "8", "speed"], "tags": ["B-Make", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["gray", "8", "speed", "no", "sleeper", "cab", "Mercedes"], "tags": ["B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Make"]}
+{"tokens": ["no", "sleeper", "cab", "Air", "brakes", "2018", "Freightliner", "with", "reefer", "red"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Brakes", "I-Brakes", "B-Year", "B-Make", "B-HasReefer", "I-HasReefer", "B-Color"]}
+{"tokens": ["250k", "miles", "gasoline", "red", "reefer", "van", "Freightliner"], "tags": ["B-Miles", "I-Miles", "B-FuelType", "B-Color", "B-BodyType", "I-BodyType", "B-Make"]}
+{"tokens": ["2021", "box", "truck", "Cummins", "no", "crew", "cab", "Air", "brakes"], "tags": ["B-Year", "B-BodyType", "I-BodyType", "B-EngineMake", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes"]}
+{"tokens": ["2021", "red"], "tags": ["B-Year", "B-Color"]}
+{"tokens": ["2022", "Cummins", "Engine", "Co.", "3", "axles", "sleeper", "cab", "5.86", "gear", "ratio"], "tags": ["B-Year", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Axles", "I-Axles", "B-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["crew", "cab", "no", "sleeper", "cab", "non-reefer", "diesel", "automatic", "transmission"], "tags": ["B-CrewCab", "I-CrewCab", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-HasReefer", "B-FuelType", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["manual", "transmission", "500k", "miles"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Miles", "I-Miles"]}
+{"tokens": ["silver", "sleeper", "cab", "no", "crew", "cab"], "tags": ["B-Color", "B-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["2022", "automatic", "transmission", "silver", "Cummins"], "tags": ["B-Year", "B-TransmissionType", "I-TransmissionType", "B-Color", "B-EngineMake"]}
+{"tokens": ["white", "box", "truck", "10", "speed", "diesel", "Hydraulic", "brakes", "500k", "miles"], "tags": ["B-Color", "B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-FuelType", "B-Brakes", "I-Brakes", "B-Miles", "I-Miles"]}
+{"tokens": ["white", "8", "speed", "2019"], "tags": ["B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Year"]}
+{"tokens": ["4", "axles", "flatbed"], "tags": ["B-Axles", "I-Axles", "B-BodyType"]}
+{"tokens": ["reefer", "Cummins", "6", "speed", "Hydraulic", "brakes"], "tags": ["B-HasReefer", "B-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Brakes", "I-Brakes"]}
+{"tokens": ["Cummins", "Engine", "Co.", "silver"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Color"]}
+{"tokens": ["Freightliner", "reefer", "crew", "cab", "box", "truck", "sleeper", "cab"], "tags": ["B-Make", "B-HasReefer", "B-CrewCab", "I-CrewCab", "B-BodyType", "I-BodyType", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["no", "crew", "cab", "no", "reefer"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["crew", "cab", "Air", "brakes", "blue"], "tags": ["B-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-Color"]}
+{"tokens": ["sleeper", "cab", "2021", "with", "reefer", "crew", "cab", "8", "speed"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Year", "B-HasReefer", "I-HasReefer", "B-CrewCab", "I-CrewCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["8", "speed", "automatic", "transmission"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["600000", "miles", "with", "reefer", "6.5", "gear", "ratio", "automatic", "transmission"], "tags": ["B-Miles", "I-Miles", "B-HasReefer", "I-HasReefer", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["Air", "brakes", "sleeper", "cab", "2", "axles"], "tags": ["B-Brakes", "I-Brakes", "B-SleeperCab", "I-SleeperCab", "B-Axles", "I-Axles"]}
+{"tokens": ["sleeper", "cab", "Mercedes", "250k", "miles", "dry", "van"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Make", "B-Miles", "I-Miles", "B-BodyType", "I-BodyType"]}
+{"tokens": ["6.5", "gear", "ratio", "blue"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Color"]}
+{"tokens": ["sleeper", "cab", "white", "hybrid"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Color", "B-FuelType"]}
+{"tokens": ["4", "axles", "Mercedes", "600000", "miles", "reefer"], "tags": ["B-Axles", "I-Axles", "B-Make", "B-Miles", "I-Miles", "B-HasReefer"]}
+{"tokens": ["blue", "8", "speed"], "tags": ["B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["2", "axles", "8", "speed", "no", "sleeper", "cab", "250k", "miles"], "tags": ["B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Miles", "I-Miles"]}
+{"tokens": ["10", "speed", "Cummins", "no", "crew", "cab"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["reefer", "gasoline", "no", "sleeper", "cab"], "tags": ["B-HasReefer", "B-FuelType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["sleeper", "cab", "Cummins", "blue", "no", "crew", "cab", "Mercedes"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-EngineMake", "B-Color", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Make"]}
+{"tokens": ["Hydraulic", "brakes", "manual", "transmission"], "tags": ["B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["no", "crew", "cab", "reefer", "van", "no", "sleeper", "cab", "Air", "brakes", "5.86", "gear", "ratio"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-BodyType", "I-BodyType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Brakes", "I-Brakes", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Hydraulic", "brakes", "non-reefer"], "tags": ["B-Brakes", "I-Brakes", "B-HasReefer"]}
+{"tokens": ["automatic", "transmission", "no", "reefer", "Freightliner/Mercedes"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-HasReefer", "I-HasReefer", "B-Make"]}
+{"tokens": ["crew", "cab", "no", "sleeper", "cab", "electric", "Freightliner/Mercedes"], "tags": ["B-CrewCab", "I-CrewCab", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-FuelType", "B-Make"]}
+{"tokens": ["10", "speed", "reefer", "Freightliner/Mercedes", "6.5", "gear", "ratio", "Cummins", "Engine", "Co.", "crew", "cab"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-HasReefer", "B-Make", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["Hydraulic", "brakes", "no", "reefer", "4", "axles", "blue", "2019", "no", "sleeper", "cab"], "tags": ["B-Brakes", "I-Brakes", "B-HasReefer", "I-HasReefer", "B-Axles", "I-Axles", "B-Color", "B-Year", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["2022", "electric", "4", "axles", "Freightliner"], "tags": ["B-Year", "B-FuelType", "B-Axles", "I-Axles", "B-Make"]}
+{"tokens": ["2", "axles", "2020", "Cummins"], "tags": ["B-Axles", "I-Axles", "B-Year", "B-EngineMake"]}
+{"tokens": ["insulation", "van", "Air", "brakes"], "tags": ["B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["with", "reefer", "2", "axles", "Cummins", "Engine", "Co.", "6.5", "gear", "ratio", "Hydraulic", "brakes"], "tags": ["B-HasReefer", "I-HasReefer", "B-Axles", "I-Axles", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Brakes", "I-Brakes"]}
+{"tokens": ["hybrid", "automatic", "transmission", "Hydraulic", "brakes", "4", "axles", "Cummins", "Engine", "Co.", "no", "sleeper", "cab"], "tags": ["B-FuelType", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["3", "axles", "2021", "no", "reefer", "gasoline"], "tags": ["B-Axles", "I-Axles", "B-Year", "B-HasReefer", "I-HasReefer", "B-FuelType"]}
+{"tokens": ["dry", "van", "crew", "cab", "hybrid"], "tags": ["B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab", "B-FuelType"]}
+{"tokens": ["manual", "transmission", "crew", "cab"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["2", "axles", "non-reefer", "blue", "electric"], "tags": ["B-Axles", "I-Axles", "B-HasReefer", "B-Color", "B-FuelType"]}
+{"tokens": ["Air", "brakes", "hybrid"], "tags": ["B-Brakes", "I-Brakes", "B-FuelType"]}
+{"tokens": ["Freightliner", "manual", "transmission", "white", "insulation", "van", "sleeper", "cab", "crew", "cab"], "tags": ["B-Make", "B-TransmissionType", "I-TransmissionType", "B-Color", "B-BodyType", "I-BodyType", "B-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["500k", "miles", "2018"], "tags": ["B-Miles", "I-Miles", "B-Year"]}
+{"tokens": ["electric", "Hydraulic", "brakes"], "tags": ["B-FuelType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["6", "speed", "Cummins", "Engine", "Co.", "2", "axles", "reefer"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Axles", "I-Axles", "B-HasReefer"]}
+{"tokens": ["6.5", "gear", "ratio", "automatic", "transmission"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["8", "speed", "2", "axles", "no", "sleeper", "cab", "Air", "brakes", "crew", "cab", "250k", "miles"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Axles", "I-Axles", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Brakes", "I-Brakes", "B-CrewCab", "I-CrewCab", "B-Miles", "I-Miles"]}
+{"tokens": ["hybrid", "automatic", "transmission", "2018"], "tags": ["B-FuelType", "B-TransmissionType", "I-TransmissionType", "B-Year"]}
+{"tokens": ["sleeper", "cab", "2021", "2", "axles", "automatic", "transmission", "10", "speed"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Year", "B-Axles", "I-Axles", "B-TransmissionType", "I-TransmissionType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["diesel", "2022", "6", "speed", "red"], "tags": ["B-FuelType", "B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color"]}
+{"tokens": ["manual", "transmission", "Freightliner"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Make"]}
+{"tokens": ["Cummins", "2", "axles", "6", "speed", "no", "sleeper", "cab"], "tags": ["B-EngineMake", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["electric", "sleeper", "cab", "6", "speed"], "tags": ["B-FuelType", "B-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Cummins", "6.5", "gear", "ratio", "250k", "miles"], "tags": ["B-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Miles", "I-Miles"]}
+{"tokens": ["2", "axles", "dry", "van", "Hydraulic", "brakes", "sleeper", "cab", "6.5", "gear", "ratio", "with", "reefer"], "tags": ["B-Axles", "I-Axles", "B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes", "B-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["2019", "3", "axles", "reefer", "van", "crew", "cab", "silver", "8", "speed"], "tags": ["B-Year", "B-Axles", "I-Axles", "B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab", "B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["hybrid", "box", "truck"], "tags": ["B-FuelType", "B-BodyType", "I-BodyType"]}
+{"tokens": ["with", "reefer", "5.86", "gear", "ratio", "Cummins"], "tags": ["B-HasReefer", "I-HasReefer", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-EngineMake"]}
+{"tokens": ["8", "speed", "with", "reefer", "sleeper", "cab", "Hydraulic", "brakes", "gasoline"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-HasReefer", "I-HasReefer", "B-SleeperCab", "I-SleeperCab", "B-Brakes", "I-Brakes", "B-FuelType"]}
+{"tokens": ["no", "reefer", "6.5", "gear", "ratio", "flatbed", "600000", "miles", "3", "axles", "Freightliner/Mercedes"], "tags": ["B-HasReefer", "I-HasReefer", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-BodyType", "B-Miles", "I-Miles", "B-Axles", "I-Axles", "B-Make"]}
+{"tokens": ["manual", "transmission", "10", "speed", "2021", "sleeper", "cab", "electric", "Cummins", "Engine", "Co."], "tags": ["B-TransmissionType", "I-TransmissionType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Year", "B-SleeperCab", "I-SleeperCab", "B-FuelType", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["automatic", "transmission", "sleeper", "cab", "6.5", "gear", "ratio", "500k", "miles", "Hydraulic", "brakes", "Mercedes"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Miles", "I-Miles", "B-Brakes", "I-Brakes", "B-Make"]}
+{"tokens": ["8", "speed", "sleeper", "cab"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["hybrid", "Cummins", "Engine", "Co.", "gray", "automatic", "transmission", "2", "axles"], "tags": ["B-FuelType", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Color", "B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles"]}
+{"tokens": ["flatbed", "250k", "miles"], "tags": ["B-BodyType", "B-Miles", "I-Miles"]}
+{"tokens": ["red", "with", "reefer", "Air", "brakes", "manual", "transmission", "8", "speed", "6.5", "gear", "ratio"], "tags": ["B-Color", "B-HasReefer", "I-HasReefer", "B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["sleeper", "cab", "hybrid", "silver"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-FuelType", "B-Color"]}
+{"tokens": ["6.5", "gear", "ratio", "gray"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Color"]}
+{"tokens": ["2021", "box", "truck", "diesel", "2", "axles", "reefer", "black"], "tags": ["B-Year", "B-BodyType", "I-BodyType", "B-FuelType", "B-Axles", "I-Axles", "B-HasReefer", "B-Color"]}
+{"tokens": ["crew", "cab", "6", "speed"], "tags": ["B-CrewCab", "I-CrewCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["diesel", "automatic", "transmission", "500k", "miles", "Cummins", "Engine", "Co."], "tags": ["B-FuelType", "B-TransmissionType", "I-TransmissionType", "B-Miles", "I-Miles", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["Hydraulic", "brakes", "2020", "with", "reefer", "no", "crew", "cab", "black"], "tags": ["B-Brakes", "I-Brakes", "B-Year", "B-HasReefer", "I-HasReefer", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Color"]}
+{"tokens": ["reefer", "van", "5.86", "gear", "ratio", "2", "axles", "diesel"], "tags": ["B-BodyType", "I-BodyType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles", "B-FuelType"]}
+{"tokens": ["automatic", "transmission", "no", "crew", "cab", "no", "sleeper", "cab", "6.5", "gear", "ratio"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["gasoline", "Cummins", "reefer", "no", "crew", "cab", "Freightliner", "Hydraulic", "brakes"], "tags": ["B-FuelType", "B-EngineMake", "B-HasReefer", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Make", "B-Brakes", "I-Brakes"]}
+{"tokens": ["red", "4", "axles", "crew", "cab", "insulation", "van", "Cummins", "Air", "brakes"], "tags": ["B-Color", "B-Axles", "I-Axles", "B-CrewCab", "I-CrewCab", "B-BodyType", "I-BodyType", "B-EngineMake", "B-Brakes", "I-Brakes"]}
+{"tokens": ["Hydraulic", "brakes", "gray"], "tags": ["B-Brakes", "I-Brakes", "B-Color"]}
+{"tokens": ["2020", "no", "crew", "cab", "black"], "tags": ["B-Year", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Color"]}
+{"tokens": ["Mercedes", "flatbed"], "tags": ["B-Make", "B-BodyType"]}
+{"tokens": ["silver", "4", "axles", "Freightliner", "10", "speed", "automatic", "transmission", "no", "crew", "cab"], "tags": ["B-Color", "B-Axles", "I-Axles", "B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["2019", "sleeper", "cab", "no", "crew", "cab", "6.5", "gear", "ratio", "300,000", "miles", "Freightliner"], "tags": ["B-Year", "B-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Miles", "I-Miles", "B-Make"]}
+{"tokens": ["8", "speed", "sleeper", "cab"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["insulation", "van", "crew", "cab", "2018", "6.5", "gear", "ratio", "300,000", "miles", "gray"], "tags": ["B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab", "B-Year", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Miles", "I-Miles", "B-Color"]}
+{"tokens": ["4", "axles", "box", "truck", "no", "sleeper", "cab", "hybrid", "Freightliner/Mercedes"], "tags": ["B-Axles", "I-Axles", "B-BodyType", "I-BodyType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-FuelType", "B-Make"]}
+{"tokens": ["crew", "cab", "Hydraulic", "brakes"], "tags": ["B-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes"]}
+{"tokens": ["non-reefer", "Cummins", "2019", "insulation", "van"], "tags": ["B-HasReefer", "B-EngineMake", "B-Year", "B-BodyType", "I-BodyType"]}
+{"tokens": ["10", "speed", "automatic", "transmission", "500k", "miles", "Hydraulic", "brakes"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType", "B-Miles", "I-Miles", "B-Brakes", "I-Brakes"]}
+{"tokens": ["Mercedes", "10", "speed", "automatic", "transmission", "Air", "brakes", "red", "reefer", "van"], "tags": ["B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes", "B-Color", "B-BodyType", "I-BodyType"]}
+{"tokens": ["5.86", "gear", "ratio", "4", "axles", "Air", "brakes", "reefer", "van"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles", "B-Brakes", "I-Brakes", "B-BodyType", "I-BodyType"]}
+{"tokens": ["Freightliner/Mercedes", "reefer", "van", "8", "speed", "no", "sleeper", "cab", "diesel"], "tags": ["B-Make", "B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-FuelType"]}
+{"tokens": ["300,000", "miles", "automatic", "transmission"], "tags": ["B-Miles", "I-Miles", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["sleeper", "cab", "2019", "red", "Cummins"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Year", "B-Color", "B-EngineMake"]}
+{"tokens": ["2020", "3", "axles", "10", "speed"], "tags": ["B-Year", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["silver", "3", "axles", "500k", "miles", "reefer", "van"], "tags": ["B-Color", "B-Axles", "I-Axles", "B-Miles", "I-Miles", "B-BodyType", "I-BodyType"]}
+{"tokens": ["Cummins", "10", "speed", "5.86", "gear", "ratio", "2019", "crew", "cab"], "tags": ["B-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Year", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["6.5", "gear", "ratio", "no", "crew", "cab", "hybrid", "2018", "automatic", "transmission", "with", "reefer"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-FuelType", "B-Year", "B-TransmissionType", "I-TransmissionType", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["manual", "transmission", "diesel", "red"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-FuelType", "B-Color"]}
+{"tokens": ["2018", "red", "Hydraulic", "brakes", "manual", "transmission", "6.5", "gear", "ratio", "8", "speed"], "tags": ["B-Year", "B-Color", "B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Cummins", "2018", "6", "speed", "no", "sleeper", "cab"], "tags": ["B-EngineMake", "B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["no", "reefer", "insulation", "van", "250k", "miles"], "tags": ["B-HasReefer", "I-HasReefer", "B-BodyType", "I-BodyType", "B-Miles", "I-Miles"]}
+{"tokens": ["silver", "600000", "miles", "5.86", "gear", "ratio", "manual", "transmission", "2", "axles"], "tags": ["B-Color", "B-Miles", "I-Miles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles"]}
+{"tokens": ["5.86", "gear", "ratio", "no", "sleeper", "cab"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["crew", "cab", "250k", "miles", "with", "reefer"], "tags": ["B-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["250k", "miles", "insulation", "van"], "tags": ["B-Miles", "I-Miles", "B-BodyType", "I-BodyType"]}
+{"tokens": ["2018", "Cummins"], "tags": ["B-Year", "B-EngineMake"]}
+{"tokens": ["10", "speed", "2018"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Year"]}
+{"tokens": ["Cummins", "250k", "miles", "crew", "cab", "manual", "transmission", "5.86", "gear", "ratio"], "tags": ["B-EngineMake", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "B-TransmissionType", "I-TransmissionType", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["non-reefer", "no", "sleeper", "cab"], "tags": ["B-HasReefer", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["silver", "automatic", "transmission", "dry", "van", "5.86", "gear", "ratio", "with", "reefer", "8", "speed"], "tags": ["B-Color", "B-TransmissionType", "I-TransmissionType", "B-BodyType", "I-BodyType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "I-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["500k", "miles", "no", "sleeper", "cab", "8", "speed", "Cummins", "Engine", "Co."], "tags": ["B-Miles", "I-Miles", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["no", "reefer", "reefer", "van", "Cummins", "Engine", "Co.", "sleeper", "cab"], "tags": ["B-HasReefer", "I-HasReefer", "B-BodyType", "I-BodyType", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["Cummins", "crew", "cab", "Air", "brakes", "8", "speed", "automatic", "transmission"], "tags": ["B-EngineMake", "B-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["Hydraulic", "brakes", "Freightliner/Mercedes", "no", "sleeper", "cab", "no", "crew", "cab", "300,000", "miles"], "tags": ["B-Brakes", "I-Brakes", "B-Make", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Miles", "I-Miles"]}
+{"tokens": ["Hydraulic", "brakes", "manual", "transmission", "Freightliner/Mercedes", "2022", "8", "speed"], "tags": ["B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType", "B-Make", "B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Freightliner", "silver", "600000", "miles", "3", "axles", "Cummins", "Engine", "Co."], "tags": ["B-Make", "B-Color", "B-Miles", "I-Miles", "B-Axles", "I-Axles", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["sleeper", "cab", "8", "speed", "silver", "non-reefer", "no", "crew", "cab"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color", "B-HasReefer", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["Freightliner", "reefer", "van", "manual", "transmission", "4", "axles", "crew", "cab", "6", "speed"], "tags": ["B-Make", "B-BodyType", "I-BodyType", "B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles", "B-CrewCab", "I-CrewCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Cummins", "Engine", "Co.", "6", "speed", "500k", "miles", "reefer", "4", "axles", "Hydraulic", "brakes"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Miles", "I-Miles", "B-HasReefer", "B-Axles", "I-Axles", "B-Brakes", "I-Brakes"]}
+{"tokens": ["500k", "miles", "automatic", "transmission", "Hydraulic", "brakes", "Cummins"], "tags": ["B-Miles", "I-Miles", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes", "B-EngineMake"]}
+{"tokens": ["3", "axles", "crew", "cab", "insulation", "van", "8", "speed"], "tags": ["B-Axles", "I-Axles", "B-CrewCab", "I-CrewCab", "B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["10", "speed", "3", "axles", "automatic", "transmission", "Hydraulic", "brakes", "Cummins"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Axles", "I-Axles", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes", "B-EngineMake"]}
+{"tokens": ["flatbed", "non-reefer", "Cummins", "6.5", "gear", "ratio"], "tags": ["B-BodyType", "B-HasReefer", "B-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["sleeper", "cab", "Mercedes"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Make"]}
+{"tokens": ["insulation", "van", "Hydraulic", "brakes", "Cummins"], "tags": ["B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes", "B-EngineMake"]}
+{"tokens": ["Cummins", "Engine", "Co.", "reefer", "reefer", "van", "Air", "brakes", "manual", "transmission", "Mercedes"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-HasReefer", "B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType", "B-Make"]}
+{"tokens": ["non-reefer", "manual", "transmission", "Freightliner/Mercedes"], "tags": ["B-HasReefer", "B-TransmissionType", "I-TransmissionType", "B-Make"]}
+{"tokens": ["with", "reefer", "box", "truck", "diesel"], "tags": ["B-HasReefer", "I-HasReefer", "B-BodyType", "I-BodyType", "B-FuelType"]}
+{"tokens": ["Hydraulic", "brakes", "dry", "van", "6", "speed"], "tags": ["B-Brakes", "I-Brakes", "B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["10", "speed", "6.5", "gear", "ratio", "2", "axles", "gray"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles", "B-Color"]}
+{"tokens": ["6", "speed", "no", "sleeper", "cab", "5.86", "gear", "ratio", "no", "crew", "cab", "manual", "transmission", "gray"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-TransmissionType", "I-TransmissionType", "B-Color"]}
+{"tokens": ["manual", "transmission", "diesel", "reefer", "4", "axles", "sleeper", "cab"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-FuelType", "B-HasReefer", "B-Axles", "I-Axles", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["2018", "manual", "transmission", "Freightliner/Mercedes", "600000", "miles", "Cummins", "Hydraulic", "brakes"], "tags": ["B-Year", "B-TransmissionType", "I-TransmissionType", "B-Make", "B-Miles", "I-Miles", "B-EngineMake", "B-Brakes", "I-Brakes"]}
+{"tokens": ["2018", "5.86", "gear", "ratio", "automatic", "transmission", "with", "reefer", "8", "speed"], "tags": ["B-Year", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-HasReefer", "I-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["3", "axles", "dry", "van", "600000", "miles", "2021", "no", "reefer"], "tags": ["B-Axles", "I-Axles", "B-BodyType", "I-BodyType", "B-Miles", "I-Miles", "B-Year", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["gray", "Hydraulic", "brakes", "2021", "no", "sleeper", "cab", "crew", "cab"], "tags": ["B-Color", "B-Brakes", "I-Brakes", "B-Year", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["Air", "brakes", "crew", "cab", "Freightliner/Mercedes", "8", "speed", "Cummins", "Engine", "Co.", "no", "reefer"], "tags": ["B-Brakes", "I-Brakes", "B-CrewCab", "I-CrewCab", "B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["no", "sleeper", "cab", "crew", "cab", "300,000", "miles", "Cummins", "Engine", "Co."], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["300,000", "miles", "3", "axles", "Cummins", "6", "speed"], "tags": ["B-Miles", "I-Miles", "B-Axles", "I-Axles", "B-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["no", "sleeper", "cab", "Hydraulic", "brakes", "Cummins"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Brakes", "I-Brakes", "B-EngineMake"]}
+{"tokens": ["Mercedes", "Cummins", "no", "crew", "cab", "4", "axles", "10", "speed"], "tags": ["B-Make", "B-EngineMake", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Cummins", "Engine", "Co.", "manual", "transmission"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["insulation", "van", "500k", "miles", "sleeper", "cab", "no", "reefer", "hybrid"], "tags": ["B-BodyType", "I-BodyType", "B-Miles", "I-Miles", "B-SleeperCab", "I-SleeperCab", "B-HasReefer", "I-HasReefer", "B-FuelType"]}
+{"tokens": ["reefer", "van", "3", "axles", "Cummins", "Engine", "Co.", "gasoline", "2022"], "tags": ["B-BodyType", "I-BodyType", "B-Axles", "I-Axles", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-FuelType", "B-Year"]}
+{"tokens": ["no", "crew", "cab", "automatic", "transmission"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["Air", "brakes", "2022", "gasoline", "250k", "miles", "sleeper", "cab"], "tags": ["B-Brakes", "I-Brakes", "B-Year", "B-FuelType", "B-Miles", "I-Miles", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["Freightliner/Mercedes", "10", "speed"], "tags": ["B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["crew", "cab", "sleeper", "cab", "diesel"], "tags": ["B-CrewCab", "I-CrewCab", "B-SleeperCab", "I-SleeperCab", "B-FuelType"]}
+{"tokens": ["automatic", "transmission", "Freightliner", "blue"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Make", "B-Color"]}
+{"tokens": ["2018", "300,000", "miles", "Air", "brakes", "electric", "no", "crew", "cab", "6", "speed"], "tags": ["B-Year", "B-Miles", "I-Miles", "B-Brakes", "I-Brakes", "B-FuelType", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["6.5", "gear", "ratio", "red", "Air", "brakes", "reefer"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Color", "B-Brakes", "I-Brakes", "B-HasReefer"]}
+{"tokens": ["5.86", "gear", "ratio", "Mercedes", "3", "axles", "10", "speed"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Make", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["hybrid", "Freightliner", "8", "speed", "gray", "Air", "brakes"], "tags": ["B-FuelType", "B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color", "B-Brakes", "I-Brakes"]}
+{"tokens": ["gasoline", "Hydraulic", "brakes", "silver", "no", "reefer"], "tags": ["B-FuelType", "B-Brakes", "I-Brakes", "B-Color", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["Cummins", "Engine", "Co.", "8", "speed", "3", "axles", "Air", "brakes"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Axles", "I-Axles", "B-Brakes", "I-Brakes"]}
+{"tokens": ["8", "speed", "with", "reefer", "sleeper", "cab"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-HasReefer", "I-HasReefer", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["with", "reefer", "white", "2", "axles", "10", "speed"], "tags": ["B-HasReefer", "I-HasReefer", "B-Color", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["flatbed", "Freightliner", "hybrid", "Hydraulic", "brakes", "6.5", "gear", "ratio", "reefer"], "tags": ["B-BodyType", "B-Make", "B-FuelType", "B-Brakes", "I-Brakes", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer"]}
+{"tokens": ["Cummins", "5.86", "gear", "ratio"], "tags": ["B-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["no", "reefer", "automatic", "transmission", "Freightliner", "crew", "cab"], "tags": ["B-HasReefer", "I-HasReefer", "B-TransmissionType", "I-TransmissionType", "B-Make", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["Freightliner/Mercedes", "250k", "miles", "2021", "electric", "Hydraulic", "brakes"], "tags": ["B-Make", "B-Miles", "I-Miles", "B-Year", "B-FuelType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["2021", "diesel", "6.5", "gear", "ratio", "flatbed", "300,000", "miles", "reefer"], "tags": ["B-Year", "B-FuelType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-BodyType", "B-Miles", "I-Miles", "B-HasReefer"]}
+{"tokens": ["Air", "brakes", "6", "speed", "Cummins", "Engine", "Co.", "2", "axles", "dry", "van"], "tags": ["B-Brakes", "I-Brakes", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Axles", "I-Axles", "B-BodyType", "I-BodyType"]}
+{"tokens": ["2", "axles", "gray"], "tags": ["B-Axles", "I-Axles", "B-Color"]}
+{"tokens": ["600000", "miles", "Cummins", "Engine", "Co."], "tags": ["B-Miles", "I-Miles", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["sleeper", "cab", "Freightliner/Mercedes", "crew", "cab", "automatic", "transmission", "Cummins"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Make", "B-CrewCab", "I-CrewCab", "B-TransmissionType", "I-TransmissionType", "B-EngineMake"]}
+{"tokens": ["flatbed", "silver"], "tags": ["B-BodyType", "B-Color"]}
+{"tokens": ["flatbed", "manual", "transmission", "blue"], "tags": ["B-BodyType", "B-TransmissionType", "I-TransmissionType", "B-Color"]}
+{"tokens": ["no", "reefer", "manual", "transmission", "Freightliner", "electric", "sleeper", "cab", "3", "axles"], "tags": ["B-HasReefer", "I-HasReefer", "B-TransmissionType", "I-TransmissionType", "B-Make", "B-FuelType", "B-SleeperCab", "I-SleeperCab", "B-Axles", "I-Axles"]}
+{"tokens": ["black", "600000", "miles", "manual", "transmission", "2022"], "tags": ["B-Color", "B-Miles", "I-Miles", "B-TransmissionType", "I-TransmissionType", "B-Year"]}
+{"tokens": ["white", "Mercedes", "10", "speed", "Cummins", "with", "reefer", "gasoline"], "tags": ["B-Color", "B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "B-HasReefer", "I-HasReefer", "B-FuelType"]}
+{"tokens": ["no", "sleeper", "cab", "reefer", "van", "Freightliner/Mercedes", "Cummins", "Air", "brakes"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-BodyType", "I-BodyType", "B-Make", "B-EngineMake", "B-Brakes", "I-Brakes"]}
+{"tokens": ["automatic", "transmission", "flatbed", "10", "speed", "5.86", "gear", "ratio", "with", "reefer", "2018"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "I-HasReefer", "B-Year"]}
+{"tokens": ["reefer", "no", "crew", "cab"], "tags": ["B-HasReefer", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["250k", "miles", "Freightliner/Mercedes", "4", "axles", "no", "crew", "cab", "diesel", "automatic", "transmission"], "tags": ["B-Miles", "I-Miles", "B-Make", "B-Axles", "I-Axles", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-FuelType", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["Freightliner", "8", "speed"], "tags": ["B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["non-reefer", "dry", "van", "gasoline", "Air", "brakes", "Cummins", "Engine", "Co.", "silver"], "tags": ["B-HasReefer", "B-BodyType", "I-BodyType", "B-FuelType", "B-Brakes", "I-Brakes", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Color"]}
+{"tokens": ["hybrid", "8", "speed"], "tags": ["B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Mercedes", "Cummins", "Engine", "Co.", "crew", "cab", "no", "sleeper", "cab"], "tags": ["B-Make", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-CrewCab", "I-CrewCab", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["sleeper", "cab", "diesel", "Cummins", "5.86", "gear", "ratio", "white", "Mercedes"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-FuelType", "B-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Color", "B-Make"]}
+{"tokens": ["red", "10", "speed", "automatic", "transmission"], "tags": ["B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["insulation", "van", "crew", "cab", "250k", "miles", "3", "axles"], "tags": ["B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-Axles", "I-Axles"]}
+{"tokens": ["no", "crew", "cab", "Air", "brakes", "reefer", "van"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-BodyType", "I-BodyType"]}
+{"tokens": ["Hydraulic", "brakes", "blue"], "tags": ["B-Brakes", "I-Brakes", "B-Color"]}
+{"tokens": ["black", "sleeper", "cab"], "tags": ["B-Color", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["no", "reefer", "Freightliner"], "tags": ["B-HasReefer", "I-HasReefer", "B-Make"]}
+{"tokens": ["Mercedes", "500k", "miles", "no", "reefer", "2022", "2", "axles"], "tags": ["B-Make", "B-Miles", "I-Miles", "B-HasReefer", "I-HasReefer", "B-Year", "B-Axles", "I-Axles"]}
+{"tokens": ["3", "axles", "300,000", "miles", "manual", "transmission", "reefer", "insulation", "van", "10", "speed"], "tags": ["B-Axles", "I-Axles", "B-Miles", "I-Miles", "B-TransmissionType", "I-TransmissionType", "B-HasReefer", "B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["2022", "Freightliner", "6.5", "gear", "ratio", "red", "sleeper", "cab"], "tags": ["B-Year", "B-Make", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Color", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["Hydraulic", "brakes", "box", "truck", "manual", "transmission"], "tags": ["B-Brakes", "I-Brakes", "B-BodyType", "I-BodyType", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["sleeper", "cab", "6.5", "gear", "ratio", "Cummins", "Mercedes", "automatic", "transmission", "Hydraulic", "brakes"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-EngineMake", "B-Make", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["hybrid", "2", "axles", "black", "Freightliner/Mercedes", "Cummins"], "tags": ["B-FuelType", "B-Axles", "I-Axles", "B-Color", "B-Make", "B-EngineMake"]}
+{"tokens": ["4", "axles", "white", "no", "sleeper", "cab", "crew", "cab", "300,000", "miles", "10", "speed"], "tags": ["B-Axles", "I-Axles", "B-Color", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Hydraulic", "brakes", "sleeper", "cab", "Cummins", "2019", "crew", "cab", "gasoline"], "tags": ["B-Brakes", "I-Brakes", "B-SleeperCab", "I-SleeperCab", "B-EngineMake", "B-Year", "B-CrewCab", "I-CrewCab", "B-FuelType"]}
+{"tokens": ["Mercedes", "Hydraulic", "brakes", "5.86", "gear", "ratio", "Cummins", "Engine", "Co.", "reefer"], "tags": ["B-Make", "B-Brakes", "I-Brakes", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-HasReefer"]}
+{"tokens": ["crew", "cab", "2", "axles", "red", "manual", "transmission"], "tags": ["B-CrewCab", "I-CrewCab", "B-Axles", "I-Axles", "B-Color", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["Air", "brakes", "2019"], "tags": ["B-Brakes", "I-Brakes", "B-Year"]}
+{"tokens": ["Cummins", "Engine", "Co.", "no", "sleeper", "cab"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["sleeper", "cab", "electric", "5.86", "gear", "ratio", "manual", "transmission", "reefer", "3", "axles"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-FuelType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-HasReefer", "B-Axles", "I-Axles"]}
+{"tokens": ["no", "sleeper", "cab", "diesel", "600000", "miles"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-FuelType", "B-Miles", "I-Miles"]}
+{"tokens": ["600000", "miles", "no", "crew", "cab", "non-reefer"], "tags": ["B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-HasReefer"]}
+{"tokens": ["flatbed", "5.86", "gear", "ratio", "300,000", "miles", "black", "6", "speed"], "tags": ["B-BodyType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Miles", "I-Miles", "B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["250k", "miles", "hybrid", "dry", "van"], "tags": ["B-Miles", "I-Miles", "B-FuelType", "B-BodyType", "I-BodyType"]}
+{"tokens": ["crew", "cab", "2020", "Cummins", "Engine", "Co.", "automatic", "transmission"], "tags": ["B-CrewCab", "I-CrewCab", "B-Year", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["4", "axles", "box", "truck", "blue"], "tags": ["B-Axles", "I-Axles", "B-BodyType", "I-BodyType", "B-Color"]}
+{"tokens": ["hybrid", "3", "axles", "crew", "cab"], "tags": ["B-FuelType", "B-Axles", "I-Axles", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["2018", "3", "axles", "6.5", "gear", "ratio", "gasoline", "10", "speed"], "tags": ["B-Year", "B-Axles", "I-Axles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["hybrid", "8", "speed", "300,000", "miles", "Air", "brakes", "gray", "Freightliner/Mercedes"], "tags": ["B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Miles", "I-Miles", "B-Brakes", "I-Brakes", "B-Color", "B-Make"]}
+{"tokens": ["Cummins", "Engine", "Co.", "non-reefer", "white", "Air", "brakes", "hybrid", "250k", "miles"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-HasReefer", "B-Color", "B-Brakes", "I-Brakes", "B-FuelType", "B-Miles", "I-Miles"]}
+{"tokens": ["250k", "miles", "flatbed", "Air", "brakes"], "tags": ["B-Miles", "I-Miles", "B-BodyType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["blue", "box", "truck", "2022", "Air", "brakes", "300,000", "miles"], "tags": ["B-Color", "B-BodyType", "I-BodyType", "B-Year", "B-Brakes", "I-Brakes", "B-Miles", "I-Miles"]}
+{"tokens": ["no", "reefer", "2022", "4", "axles", "10", "speed", "6.5", "gear", "ratio"], "tags": ["B-HasReefer", "I-HasReefer", "B-Year", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["8", "speed", "manual", "transmission"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["red", "automatic", "transmission", "6.5", "gear", "ratio", "2021"], "tags": ["B-Color", "B-TransmissionType", "I-TransmissionType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Year"]}
+{"tokens": ["Cummins", "hybrid", "250k", "miles", "Freightliner/Mercedes", "white", "6", "speed"], "tags": ["B-EngineMake", "B-FuelType", "B-Miles", "I-Miles", "B-Make", "B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["no", "sleeper", "cab", "automatic", "transmission", "5.86", "gear", "ratio"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionType", "I-TransmissionType", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["automatic", "transmission", "250k", "miles", "2", "axles", "2020"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Miles", "I-Miles", "B-Axles", "I-Axles", "B-Year"]}
+{"tokens": ["sleeper", "cab", "300,000", "miles"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Miles", "I-Miles"]}
+{"tokens": ["6.5", "gear", "ratio", "4", "axles", "crew", "cab", "blue", "Hydraulic", "brakes"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles", "B-CrewCab", "I-CrewCab", "B-Color", "B-Brakes", "I-Brakes"]}
+{"tokens": ["black", "Hydraulic", "brakes", "500k", "miles", "electric", "8", "speed"], "tags": ["B-Color", "B-Brakes", "I-Brakes", "B-Miles", "I-Miles", "B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["box", "truck", "2", "axles", "with", "reefer"], "tags": ["B-BodyType", "I-BodyType", "B-Axles", "I-Axles", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["silver", "diesel"], "tags": ["B-Color", "B-FuelType"]}
+{"tokens": ["manual", "transmission", "no", "crew", "cab", "reefer"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-HasReefer"]}
+{"tokens": ["Air", "brakes", "automatic", "transmission", "blue", "Cummins"], "tags": ["B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType", "B-Color", "B-EngineMake"]}
+{"tokens": ["no", "reefer", "Hydraulic", "brakes", "black", "600000", "miles"], "tags": ["B-HasReefer", "I-HasReefer", "B-Brakes", "I-Brakes", "B-Color", "B-Miles", "I-Miles"]}
+{"tokens": ["5.86", "gear", "ratio", "no", "sleeper", "cab", "Air", "brakes", "8", "speed", "non-reefer", "hybrid"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Brakes", "I-Brakes", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-HasReefer", "B-FuelType"]}
+{"tokens": ["Air", "brakes", "no", "crew", "cab"], "tags": ["B-Brakes", "I-Brakes", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["2", "axles", "Cummins", "Engine", "Co."], "tags": ["B-Axles", "I-Axles", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["Cummins", "insulation", "van", "no", "reefer", "4", "axles", "6", "speed", "crew", "cab"], "tags": ["B-EngineMake", "B-BodyType", "I-BodyType", "B-HasReefer", "I-HasReefer", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["manual", "transmission", "Freightliner/Mercedes", "3", "axles", "Cummins", "no", "crew", "cab"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Make", "B-Axles", "I-Axles", "B-EngineMake", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["6.5", "gear", "ratio", "600000", "miles", "black", "2022", "hybrid", "4", "axles"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Miles", "I-Miles", "B-Color", "B-Year", "B-FuelType", "B-Axles", "I-Axles"]}
+{"tokens": ["250k", "miles", "Cummins", "Engine", "Co.", "Freightliner", "5.86", "gear", "ratio"], "tags": ["B-Miles", "I-Miles", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Make", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["sleeper", "cab", "4", "axles", "2022", "300,000", "miles", "Hydraulic", "brakes", "diesel"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Axles", "I-Axles", "B-Year", "B-Miles", "I-Miles", "B-Brakes", "I-Brakes", "B-FuelType"]}
+{"tokens": ["black", "diesel", "Cummins", "manual", "transmission"], "tags": ["B-Color", "B-FuelType", "B-EngineMake", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["250k", "miles", "crew", "cab"], "tags": ["B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["automatic", "transmission", "5.86", "gear", "ratio"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["6", "speed", "250k", "miles", "Cummins", "2020"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Miles", "I-Miles", "B-EngineMake", "B-Year"]}
+{"tokens": ["Cummins", "Air", "brakes", "2022", "300,000", "miles", "reefer", "electric"], "tags": ["B-EngineMake", "B-Brakes", "I-Brakes", "B-Year", "B-Miles", "I-Miles", "B-HasReefer", "B-FuelType"]}
+{"tokens": ["black", "automatic", "transmission", "10", "speed"], "tags": ["B-Color", "B-TransmissionType", "I-TransmissionType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["hybrid", "red", "Air", "brakes", "6.5", "gear", "ratio", "Cummins", "Engine", "Co.", "non-reefer"], "tags": ["B-FuelType", "B-Color", "B-Brakes", "I-Brakes", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-HasReefer"]}
+{"tokens": ["10", "speed", "reefer", "van", "sleeper", "cab", "Cummins", "Engine", "Co.", "2", "axles"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-BodyType", "I-BodyType", "B-SleeperCab", "I-SleeperCab", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Axles", "I-Axles"]}
+{"tokens": ["hybrid", "automatic", "transmission", "no", "sleeper", "cab", "2", "axles"], "tags": ["B-FuelType", "B-TransmissionType", "I-TransmissionType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Axles", "I-Axles"]}
+{"tokens": ["2", "axles", "non-reefer", "manual", "transmission", "2018", "10", "speed"], "tags": ["B-Axles", "I-Axles", "B-HasReefer", "B-TransmissionType", "I-TransmissionType", "B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["250k", "miles", "blue", "manual", "transmission"], "tags": ["B-Miles", "I-Miles", "B-Color", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["automatic", "transmission", "red", "Cummins", "Engine", "Co.", "5.86", "gear", "ratio"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Color", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["with", "reefer", "300,000", "miles", "Cummins", "Engine", "Co.", "no", "sleeper", "cab", "insulation", "van", "Freightliner/Mercedes"], "tags": ["B-HasReefer", "I-HasReefer", "B-Miles", "I-Miles", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-BodyType", "I-BodyType", "B-Make"]}
+{"tokens": ["6", "speed", "3", "axles", "5.86", "gear", "ratio", "red", "with", "reefer"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Axles", "I-Axles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Color", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["250k", "miles", "2020", "Air", "brakes"], "tags": ["B-Miles", "I-Miles", "B-Year", "B-Brakes", "I-Brakes"]}
+{"tokens": ["non-reefer", "8", "speed", "Mercedes", "electric", "500k", "miles"], "tags": ["B-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Make", "B-FuelType", "B-Miles", "I-Miles"]}
+{"tokens": ["electric", "2020", "Mercedes"], "tags": ["B-FuelType", "B-Year", "B-Make"]}
+{"tokens": ["no", "sleeper", "cab", "6", "speed", "no", "crew", "cab", "6.5", "gear", "ratio"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["6", "speed", "Cummins", "2019", "automatic", "transmission", "4", "axles", "Air", "brakes"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "B-Year", "B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles", "B-Brakes", "I-Brakes"]}
+{"tokens": ["insulation", "van", "no", "sleeper", "cab", "Freightliner"], "tags": ["B-BodyType", "I-BodyType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Make"]}
+{"tokens": ["2022", "Cummins", "10", "speed", "Hydraulic", "brakes"], "tags": ["B-Year", "B-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Brakes", "I-Brakes"]}
+{"tokens": ["Cummins", "Engine", "Co.", "insulation", "van", "automatic", "transmission", "hybrid", "Air", "brakes"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-BodyType", "I-BodyType", "B-TransmissionType", "I-TransmissionType", "B-FuelType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["no", "sleeper", "cab", "box", "truck", "no", "crew", "cab", "4", "axles", "hybrid"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Axles", "I-Axles", "B-FuelType"]}
+{"tokens": ["6", "speed", "automatic", "transmission", "no", "sleeper", "cab", "white", "reefer", "van", "no", "crew", "cab"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Color", "B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["6", "speed", "gasoline", "4", "axles"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-FuelType", "B-Axles", "I-Axles"]}
+{"tokens": ["2", "axles", "500k", "miles", "6", "speed", "reefer", "Freightliner"], "tags": ["B-Axles", "I-Axles", "B-Miles", "I-Miles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-HasReefer", "B-Make"]}
+{"tokens": ["no", "crew", "cab", "Freightliner/Mercedes", "manual", "transmission", "flatbed", "sleeper", "cab", "2", "axles"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Make", "B-TransmissionType", "I-TransmissionType", "B-BodyType", "B-SleeperCab", "I-SleeperCab", "B-Axles", "I-Axles"]}
+{"tokens": ["white", "300,000", "miles", "hybrid", "crew", "cab", "Air", "brakes", "6.5", "gear", "ratio"], "tags": ["B-Color", "B-Miles", "I-Miles", "B-FuelType", "B-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["6", "speed", "Cummins", "5.86", "gear", "ratio", "with", "reefer"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["dry", "van", "8", "speed"], "tags": ["B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Hydraulic", "brakes", "10", "speed", "no", "sleeper", "cab", "automatic", "transmission", "Cummins", "Engine", "Co.", "3", "axles"], "tags": ["B-Brakes", "I-Brakes", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionType", "I-TransmissionType", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Axles", "I-Axles"]}
+{"tokens": ["500k", "miles", "no", "crew", "cab", "automatic", "transmission", "sleeper", "cab", "dry", "van"], "tags": ["B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-TransmissionType", "I-TransmissionType", "B-SleeperCab", "I-SleeperCab", "B-BodyType", "I-BodyType"]}
+{"tokens": ["manual", "transmission", "Cummins", "Engine", "Co.", "Freightliner"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Make"]}
+{"tokens": ["no", "crew", "cab", "6", "speed", "gasoline", "Freightliner", "non-reefer"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-FuelType", "B-Make", "B-HasReefer"]}
+{"tokens": ["10", "speed", "300,000", "miles", "crew", "cab", "Air", "brakes", "3", "axles", "reefer"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles", "B-HasReefer"]}
+{"tokens": ["10", "speed", "Mercedes"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Make"]}
+{"tokens": ["2", "axles", "Cummins", "no", "sleeper", "cab"], "tags": ["B-Axles", "I-Axles", "B-EngineMake", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["Freightliner/Mercedes", "blue", "Cummins", "10", "speed", "no", "sleeper", "cab", "5.86", "gear", "ratio"], "tags": ["B-Make", "B-Color", "B-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["10", "speed", "2021", "white", "3", "axles", "electric"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Year", "B-Color", "B-Axles", "I-Axles", "B-FuelType"]}
+{"tokens": ["silver", "3", "axles", "5.86", "gear", "ratio"], "tags": ["B-Color", "B-Axles", "I-Axles", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Cummins", "Engine", "Co.", "blue"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Color"]}
+{"tokens": ["300,000", "miles", "black"], "tags": ["B-Miles", "I-Miles", "B-Color"]}
+{"tokens": ["no", "crew", "cab", "250k", "miles", "no", "reefer", "automatic", "transmission", "3", "axles"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-HasReefer", "I-HasReefer", "B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles"]}
+{"tokens": ["Mercedes", "8", "speed"], "tags": ["B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["sleeper", "cab", "5.86", "gear", "ratio", "hybrid", "crew", "cab", "automatic", "transmission", "Cummins"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-FuelType", "B-CrewCab", "I-CrewCab", "B-TransmissionType", "I-TransmissionType", "B-EngineMake"]}
+{"tokens": ["10", "speed", "4", "axles"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Axles", "I-Axles"]}
+{"tokens": ["8", "speed", "with", "reefer", "5.86", "gear", "ratio"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-HasReefer", "I-HasReefer", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Freightliner", "hybrid", "6.5", "gear", "ratio", "no", "reefer"], "tags": ["B-Make", "B-FuelType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["Mercedes", "hybrid", "non-reefer", "3", "axles"], "tags": ["B-Make", "B-FuelType", "B-HasReefer", "B-Axles", "I-Axles"]}
+{"tokens": ["with", "reefer", "hybrid", "2019"], "tags": ["B-HasReefer", "I-HasReefer", "B-FuelType", "B-Year"]}
+{"tokens": ["6", "speed", "250k", "miles"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Miles", "I-Miles"]}
+{"tokens": ["gasoline", "2019", "automatic", "transmission"], "tags": ["B-FuelType", "B-Year", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["sleeper", "cab", "2018", "Freightliner"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Year", "B-Make"]}
+{"tokens": ["Cummins", "2", "axles", "Mercedes"], "tags": ["B-EngineMake", "B-Axles", "I-Axles", "B-Make"]}
+{"tokens": ["Cummins", "Engine", "Co.", "10", "speed", "dry", "van", "electric", "600000", "miles"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-BodyType", "I-BodyType", "B-FuelType", "B-Miles", "I-Miles"]}
+{"tokens": ["white", "4", "axles"], "tags": ["B-Color", "B-Axles", "I-Axles"]}
+{"tokens": ["6.5", "gear", "ratio", "600000", "miles", "reefer", "van"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Miles", "I-Miles", "B-BodyType", "I-BodyType"]}
+{"tokens": ["Cummins", "Engine", "Co.", "6.5", "gear", "ratio"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["gasoline", "blue", "manual", "transmission", "250k", "miles"], "tags": ["B-FuelType", "B-Color", "B-TransmissionType", "I-TransmissionType", "B-Miles", "I-Miles"]}
+{"tokens": ["6", "speed", "Hydraulic", "brakes", "sleeper", "cab", "automatic", "transmission", "diesel", "black"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Brakes", "I-Brakes", "B-SleeperCab", "I-SleeperCab", "B-TransmissionType", "I-TransmissionType", "B-FuelType", "B-Color"]}
+{"tokens": ["250k", "miles", "flatbed", "8", "speed", "6.5", "gear", "ratio"], "tags": ["B-Miles", "I-Miles", "B-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["no", "crew", "cab", "Freightliner/Mercedes", "automatic", "transmission", "sleeper", "cab"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Make", "B-TransmissionType", "I-TransmissionType", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["300,000", "miles", "6", "speed", "manual", "transmission", "Freightliner", "Air", "brakes", "no", "reefer"], "tags": ["B-Miles", "I-Miles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType", "B-Make", "B-Brakes", "I-Brakes", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["Air", "brakes", "flatbed", "6.5", "gear", "ratio", "10", "speed"], "tags": ["B-Brakes", "I-Brakes", "B-BodyType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["crew", "cab", "reefer", "van"], "tags": ["B-CrewCab", "I-CrewCab", "B-BodyType", "I-BodyType"]}
+{"tokens": ["with", "reefer", "5.86", "gear", "ratio", "4", "axles"], "tags": ["B-HasReefer", "I-HasReefer", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles"]}
+{"tokens": ["5.86", "gear", "ratio", "Freightliner/Mercedes", "with", "reefer", "no", "sleeper", "cab"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Make", "B-HasReefer", "I-HasReefer", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["5.86", "gear", "ratio", "Mercedes", "manual", "transmission", "Hydraulic", "brakes", "2022", "8", "speed"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Make", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes", "B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["gasoline", "Hydraulic", "brakes", "250k", "miles", "blue"], "tags": ["B-FuelType", "B-Brakes", "I-Brakes", "B-Miles", "I-Miles", "B-Color"]}
+{"tokens": ["with", "reefer", "2", "axles", "Hydraulic", "brakes", "insulation", "van", "crew", "cab"], "tags": ["B-HasReefer", "I-HasReefer", "B-Axles", "I-Axles", "B-Brakes", "I-Brakes", "B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["3", "axles", "600000", "miles", "6", "speed", "Cummins", "diesel"], "tags": ["B-Axles", "I-Axles", "B-Miles", "I-Miles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "B-FuelType"]}
+{"tokens": ["Air", "brakes", "sleeper", "cab", "Cummins", "Engine", "Co.", "2020", "no", "crew", "cab", "Mercedes"], "tags": ["B-Brakes", "I-Brakes", "B-SleeperCab", "I-SleeperCab", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Year", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Make"]}
+{"tokens": ["no", "sleeper", "cab", "2022", "black"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Year", "B-Color"]}
+{"tokens": ["2022", "with", "reefer", "reefer", "van"], "tags": ["B-Year", "B-HasReefer", "I-HasReefer", "B-BodyType", "I-BodyType"]}
+{"tokens": ["flatbed", "crew", "cab", "2019"], "tags": ["B-BodyType", "B-CrewCab", "I-CrewCab", "B-Year"]}
+{"tokens": ["automatic", "transmission", "8", "speed", "no", "crew", "cab", "2022"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Year"]}
+{"tokens": ["3", "axles", "Mercedes"], "tags": ["B-Axles", "I-Axles", "B-Make"]}
+{"tokens": ["Air", "brakes", "automatic", "transmission", "hybrid", "10", "speed"], "tags": ["B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType", "B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Cummins", "Engine", "Co.", "500k", "miles", "no", "crew", "cab", "2020"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Year"]}
+{"tokens": ["2", "axles", "5.86", "gear", "ratio"], "tags": ["B-Axles", "I-Axles", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["sleeper", "cab", "2018", "5.86", "gear", "ratio"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Year", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["8", "speed", "6.5", "gear", "ratio", "automatic", "transmission", "2", "axles", "Cummins", "Engine", "Co."], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["automatic", "transmission", "non-reefer"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-HasReefer"]}
+{"tokens": ["automatic", "transmission", "10", "speed", "6.5", "gear", "ratio"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["5.86", "gear", "ratio", "Air", "brakes"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Brakes", "I-Brakes"]}
+{"tokens": ["white", "box", "truck"], "tags": ["B-Color", "B-BodyType", "I-BodyType"]}
+{"tokens": ["Mercedes", "sleeper", "cab", "no", "reefer"], "tags": ["B-Make", "B-SleeperCab", "I-SleeperCab", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["insulation", "van", "8", "speed", "manual", "transmission"], "tags": ["B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["non-reefer", "2", "axles"], "tags": ["B-HasReefer", "B-Axles", "I-Axles"]}
+{"tokens": ["300,000", "miles", "5.86", "gear", "ratio"], "tags": ["B-Miles", "I-Miles", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["2020", "non-reefer", "manual", "transmission", "crew", "cab", "no", "sleeper", "cab"], "tags": ["B-Year", "B-HasReefer", "B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["Freightliner", "6.5", "gear", "ratio"], "tags": ["B-Make", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["2018", "10", "speed", "3", "axles", "gray"], "tags": ["B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Axles", "I-Axles", "B-Color"]}
+{"tokens": ["no", "crew", "cab", "250k", "miles", "electric"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-FuelType"]}
+{"tokens": ["dry", "van", "Mercedes", "Cummins", "Engine", "Co.", "Hydraulic", "brakes", "non-reefer", "sleeper", "cab"], "tags": ["B-BodyType", "I-BodyType", "B-Make", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Brakes", "I-Brakes", "B-HasReefer", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["crew", "cab", "black", "reefer", "van"], "tags": ["B-CrewCab", "I-CrewCab", "B-Color", "B-BodyType", "I-BodyType"]}
+{"tokens": ["gray", "Cummins", "insulation", "van", "non-reefer"], "tags": ["B-Color", "B-EngineMake", "B-BodyType", "I-BodyType", "B-HasReefer"]}
+{"tokens": ["automatic", "transmission", "Cummins", "2021"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-EngineMake", "B-Year"]}
+{"tokens": ["Mercedes", "6", "speed", "red", "5.86", "gear", "ratio", "automatic", "transmission", "Cummins", "Engine", "Co."], "tags": ["B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["dry", "van", "Air", "brakes", "2018"], "tags": ["B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes", "B-Year"]}
+{"tokens": ["300,000", "miles", "Hydraulic", "brakes", "2", "axles"], "tags": ["B-Miles", "I-Miles", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles"]}
+{"tokens": ["box", "truck", "8", "speed", "sleeper", "cab"], "tags": ["B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["5.86", "gear", "ratio", "insulation", "van"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-BodyType", "I-BodyType"]}
+{"tokens": ["600000", "miles", "Freightliner", "reefer", "6", "speed", "Hydraulic", "brakes"], "tags": ["B-Miles", "I-Miles", "B-Make", "B-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Brakes", "I-Brakes"]}
+{"tokens": ["reefer", "van", "2019", "no", "sleeper", "cab", "8", "speed", "Hydraulic", "brakes"], "tags": ["B-BodyType", "I-BodyType", "B-Year", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Brakes", "I-Brakes"]}
+{"tokens": ["gasoline", "2022", "crew", "cab", "250k", "miles", "Cummins", "3", "axles"], "tags": ["B-FuelType", "B-Year", "B-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-EngineMake", "B-Axles", "I-Axles"]}
+{"tokens": ["Air", "brakes", "2020", "flatbed", "gasoline", "automatic", "transmission", "Cummins", "Engine", "Co."], "tags": ["B-Brakes", "I-Brakes", "B-Year", "B-BodyType", "B-FuelType", "B-TransmissionType", "I-TransmissionType", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["with", "reefer", "5.86", "gear", "ratio", "2", "axles", "sleeper", "cab"], "tags": ["B-HasReefer", "I-HasReefer", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["Cummins", "Engine", "Co.", "with", "reefer"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["2", "axles", "no", "sleeper", "cab", "hybrid"], "tags": ["B-Axles", "I-Axles", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-FuelType"]}
+{"tokens": ["non-reefer", "Freightliner", "hybrid"], "tags": ["B-HasReefer", "B-Make", "B-FuelType"]}
+{"tokens": ["Cummins", "Engine", "Co.", "automatic", "transmission", "2018", "250k", "miles"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-TransmissionType", "I-TransmissionType", "B-Year", "B-Miles", "I-Miles"]}
+{"tokens": ["Cummins", "6", "speed"], "tags": ["B-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Cummins", "Engine", "Co.", "10", "speed", "Freightliner", "5.86", "gear", "ratio", "2018", "3", "axles"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Make", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Year", "B-Axles", "I-Axles"]}
+{"tokens": ["Cummins", "Engine", "Co.", "4", "axles", "5.86", "gear", "ratio", "2019", "sleeper", "cab"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Axles", "I-Axles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Year", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["automatic", "transmission", "blue", "Freightliner/Mercedes"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Color", "B-Make"]}
+{"tokens": ["4", "axles", "Freightliner", "6.5", "gear", "ratio", "crew", "cab", "red"], "tags": ["B-Axles", "I-Axles", "B-Make", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-CrewCab", "I-CrewCab", "B-Color"]}
+{"tokens": ["6", "speed", "500k", "miles", "box", "truck"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Miles", "I-Miles", "B-BodyType", "I-BodyType"]}
+{"tokens": ["Cummins", "sleeper", "cab", "2022", "Hydraulic", "brakes"], "tags": ["B-EngineMake", "B-SleeperCab", "I-SleeperCab", "B-Year", "B-Brakes", "I-Brakes"]}
+{"tokens": ["gasoline", "no", "sleeper", "cab", "Cummins", "Engine", "Co."], "tags": ["B-FuelType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["Hydraulic", "brakes", "non-reefer", "Freightliner", "flatbed", "2018"], "tags": ["B-Brakes", "I-Brakes", "B-HasReefer", "B-Make", "B-BodyType", "B-Year"]}
+{"tokens": ["Cummins", "automatic", "transmission"], "tags": ["B-EngineMake", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["3", "axles", "automatic", "transmission"], "tags": ["B-Axles", "I-Axles", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["2019", "8", "speed", "black", "300,000", "miles"], "tags": ["B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color", "B-Miles", "I-Miles"]}
+{"tokens": ["silver", "automatic", "transmission", "300,000", "miles", "crew", "cab"], "tags": ["B-Color", "B-TransmissionType", "I-TransmissionType", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["non-reefer", "600000", "miles", "2020", "gasoline", "2", "axles"], "tags": ["B-HasReefer", "B-Miles", "I-Miles", "B-Year", "B-FuelType", "B-Axles", "I-Axles"]}
+{"tokens": ["2019", "sleeper", "cab", "5.86", "gear", "ratio", "Freightliner/Mercedes", "red", "600000", "miles"], "tags": ["B-Year", "B-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Make", "B-Color", "B-Miles", "I-Miles"]}
+{"tokens": ["electric", "Freightliner", "2019", "Cummins"], "tags": ["B-FuelType", "B-Make", "B-Year", "B-EngineMake"]}
+{"tokens": ["10", "speed", "flatbed", "2019"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-BodyType", "B-Year"]}
+{"tokens": ["no", "sleeper", "cab", "insulation", "van", "manual", "transmission", "blue", "10", "speed"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-BodyType", "I-BodyType", "B-TransmissionType", "I-TransmissionType", "B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["gray", "2020", "flatbed", "8", "speed", "electric", "Freightliner"], "tags": ["B-Color", "B-Year", "B-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-FuelType", "B-Make"]}
+{"tokens": ["Air", "brakes", "6.5", "gear", "ratio", "Freightliner/Mercedes"], "tags": ["B-Brakes", "I-Brakes", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Make"]}
+{"tokens": ["no", "crew", "cab", "5.86", "gear", "ratio", "automatic", "transmission", "Hydraulic", "brakes", "silver", "Freightliner"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes", "B-Color", "B-Make"]}
+{"tokens": ["insulation", "van", "250k", "miles", "blue", "no", "sleeper", "cab"], "tags": ["B-BodyType", "I-BodyType", "B-Miles", "I-Miles", "B-Color", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["crew", "cab", "Hydraulic", "brakes", "5.86", "gear", "ratio", "3", "axles"], "tags": ["B-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles"]}
+{"tokens": ["silver", "2018", "10", "speed", "2", "axles"], "tags": ["B-Color", "B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Axles", "I-Axles"]}
+{"tokens": ["box", "truck", "black"], "tags": ["B-BodyType", "I-BodyType", "B-Color"]}
+{"tokens": ["600000", "miles", "Air", "brakes", "white", "with", "reefer", "reefer", "van", "no", "sleeper", "cab"], "tags": ["B-Miles", "I-Miles", "B-Brakes", "I-Brakes", "B-Color", "B-HasReefer", "I-HasReefer", "B-BodyType", "I-BodyType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["300,000", "miles", "Cummins", "silver", "Freightliner"], "tags": ["B-Miles", "I-Miles", "B-EngineMake", "B-Color", "B-Make"]}
+{"tokens": ["non-reefer", "diesel", "2018", "sleeper", "cab", "manual", "transmission", "6.5", "gear", "ratio"], "tags": ["B-HasReefer", "B-FuelType", "B-Year", "B-SleeperCab", "I-SleeperCab", "B-TransmissionType", "I-TransmissionType", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Freightliner/Mercedes", "8", "speed"], "tags": ["B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["non-reefer", "diesel", "5.86", "gear", "ratio", "3", "axles"], "tags": ["B-HasReefer", "B-FuelType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles"]}
+{"tokens": ["500k", "miles", "dry", "van", "5.86", "gear", "ratio"], "tags": ["B-Miles", "I-Miles", "B-BodyType", "I-BodyType", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Freightliner", "Air", "brakes", "2", "axles", "Cummins", "Engine", "Co.", "300,000", "miles"], "tags": ["B-Make", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Miles", "I-Miles"]}
+{"tokens": ["Mercedes", "10", "speed", "no", "sleeper", "cab", "300,000", "miles"], "tags": ["B-Make", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Miles", "I-Miles"]}
+{"tokens": ["with", "reefer", "6", "speed", "4", "axles", "Air", "brakes", "Cummins", "Engine", "Co."], "tags": ["B-HasReefer", "I-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Axles", "I-Axles", "B-Brakes", "I-Brakes", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["6", "speed", "black", "300,000", "miles"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color", "B-Miles", "I-Miles"]}
+{"tokens": ["sleeper", "cab", "crew", "cab", "6.5", "gear", "ratio", "white"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Color"]}
+{"tokens": ["5.86", "gear", "ratio", "no", "sleeper", "cab"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["automatic", "transmission", "Cummins"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-EngineMake"]}
+{"tokens": ["300,000", "miles", "black", "Cummins", "Engine", "Co."], "tags": ["B-Miles", "I-Miles", "B-Color", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["2020", "250k", "miles", "Air", "brakes", "red", "10", "speed"], "tags": ["B-Year", "B-Miles", "I-Miles", "B-Brakes", "I-Brakes", "B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["300,000", "miles", "reefer", "Hydraulic", "brakes", "2", "axles", "manual", "transmission", "Cummins"], "tags": ["B-Miles", "I-Miles", "B-HasReefer", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles", "B-TransmissionType", "I-TransmissionType", "B-EngineMake"]}
+{"tokens": ["3", "axles", "10", "speed"], "tags": ["B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["non-reefer", "Freightliner/Mercedes", "Cummins"], "tags": ["B-HasReefer", "B-Make", "B-EngineMake"]}
+{"tokens": ["red", "crew", "cab"], "tags": ["B-Color", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["non-reefer", "no", "crew", "cab", "Hydraulic", "brakes", "red", "8", "speed", "2018"], "tags": ["B-HasReefer", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Year"]}
+{"tokens": ["5.86", "gear", "ratio", "2020", "diesel", "500k", "miles"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Year", "B-FuelType", "B-Miles", "I-Miles"]}
+{"tokens": ["2", "axles", "6", "speed", "manual", "transmission"], "tags": ["B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["no", "crew", "cab", "no", "sleeper", "cab", "2021"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Year"]}
+{"tokens": ["250k", "miles", "2", "axles"], "tags": ["B-Miles", "I-Miles", "B-Axles", "I-Axles"]}
+{"tokens": ["2022", "manual", "transmission", "crew", "cab", "Cummins", "Engine", "Co.", "no", "reefer"], "tags": ["B-Year", "B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["Air", "brakes", "crew", "cab", "8", "speed", "3", "axles", "600000", "miles", "Cummins", "Engine", "Co."], "tags": ["B-Brakes", "I-Brakes", "B-CrewCab", "I-CrewCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Axles", "I-Axles", "B-Miles", "I-Miles", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["sleeper", "cab", "white", "automatic", "transmission", "Air", "brakes", "4", "axles"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Color", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles"]}
+{"tokens": ["500k", "miles", "no", "crew", "cab", "non-reefer", "8", "speed"], "tags": ["B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["gasoline", "Mercedes", "2", "axles", "Hydraulic", "brakes", "no", "crew", "cab", "600000", "miles"], "tags": ["B-FuelType", "B-Make", "B-Axles", "I-Axles", "B-Brakes", "I-Brakes", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Miles", "I-Miles"]}
+{"tokens": ["automatic", "transmission", "300,000", "miles", "insulation", "van", "8", "speed", "Freightliner/Mercedes"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Miles", "I-Miles", "B-BodyType", "I-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Make"]}
+{"tokens": ["blue", "Mercedes"], "tags": ["B-Color", "B-Make"]}
+{"tokens": ["3", "axles", "crew", "cab", "8", "speed", "Cummins", "Engine", "Co.", "reefer", "van"], "tags": ["B-Axles", "I-Axles", "B-CrewCab", "I-CrewCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-BodyType", "I-BodyType"]}
+{"tokens": ["crew", "cab", "4", "axles", "2020", "250k", "miles"], "tags": ["B-CrewCab", "I-CrewCab", "B-Axles", "I-Axles", "B-Year", "B-Miles", "I-Miles"]}
+{"tokens": ["crew", "cab", "Cummins", "Engine", "Co.", "6.5", "gear", "ratio"], "tags": ["B-CrewCab", "I-CrewCab", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Freightliner/Mercedes", "Cummins", "Engine", "Co.", "dry", "van", "2022", "Air", "brakes", "red"], "tags": ["B-Make", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-BodyType", "I-BodyType", "B-Year", "B-Brakes", "I-Brakes", "B-Color"]}
+{"tokens": ["reefer", "Freightliner/Mercedes", "2019", "automatic", "transmission", "white", "Hydraulic", "brakes"], "tags": ["B-HasReefer", "B-Make", "B-Year", "B-TransmissionType", "I-TransmissionType", "B-Color", "B-Brakes", "I-Brakes"]}
+{"tokens": ["no", "sleeper", "cab", "8", "speed", "electric", "no", "crew", "cab"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-FuelType", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["no", "sleeper", "cab", "3", "axles", "600000", "miles", "reefer", "automatic", "transmission", "2020"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Axles", "I-Axles", "B-Miles", "I-Miles", "B-HasReefer", "B-TransmissionType", "I-TransmissionType", "B-Year"]}
+{"tokens": ["no", "reefer", "Hydraulic", "brakes", "Freightliner/Mercedes", "300,000", "miles", "manual", "transmission", "hybrid"], "tags": ["B-HasReefer", "I-HasReefer", "B-Brakes", "I-Brakes", "B-Make", "B-Miles", "I-Miles", "B-TransmissionType", "I-TransmissionType", "B-FuelType"]}
+{"tokens": ["hybrid", "Hydraulic", "brakes", "sleeper", "cab"], "tags": ["B-FuelType", "B-Brakes", "I-Brakes", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["4", "axles", "diesel"], "tags": ["B-Axles", "I-Axles", "B-FuelType"]}
+{"tokens": ["Cummins", "Engine", "Co.", "black", "2", "axles", "10", "speed"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Color", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["2019", "Hydraulic", "brakes", "600000", "miles", "sleeper", "cab", "non-reefer"], "tags": ["B-Year", "B-Brakes", "I-Brakes", "B-Miles", "I-Miles", "B-SleeperCab", "I-SleeperCab", "B-HasReefer"]}
+{"tokens": ["white", "Hydraulic", "brakes", "250k", "miles"], "tags": ["B-Color", "B-Brakes", "I-Brakes", "B-Miles", "I-Miles"]}
+{"tokens": ["sleeper", "cab", "crew", "cab", "300,000", "miles", "Mercedes", "gasoline", "6.5", "gear", "ratio"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab", "B-Miles", "I-Miles", "B-Make", "B-FuelType", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["box", "truck", "manual", "transmission", "with", "reefer", "gasoline", "black", "500k", "miles"], "tags": ["B-BodyType", "I-BodyType", "B-TransmissionType", "I-TransmissionType", "B-HasReefer", "I-HasReefer", "B-FuelType", "B-Color", "B-Miles", "I-Miles"]}
+{"tokens": ["2020", "Mercedes", "reefer", "insulation", "van", "4", "axles"], "tags": ["B-Year", "B-Make", "B-HasReefer", "B-BodyType", "I-BodyType", "B-Axles", "I-Axles"]}
+{"tokens": ["6.5", "gear", "ratio", "automatic", "transmission"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["6.5", "gear", "ratio", "6", "speed", "Freightliner", "crew", "cab"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Make", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["6.5", "gear", "ratio", "2022"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Year"]}
+{"tokens": ["blue", "electric", "Mercedes", "manual", "transmission"], "tags": ["B-Color", "B-FuelType", "B-Make", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["gasoline", "non-reefer", "8", "speed"], "tags": ["B-FuelType", "B-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Mercedes", "300,000", "miles", "Cummins", "Engine", "Co."], "tags": ["B-Make", "B-Miles", "I-Miles", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["no", "reefer", "electric", "automatic", "transmission", "crew", "cab"], "tags": ["B-HasReefer", "I-HasReefer", "B-FuelType", "B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["sleeper", "cab", "non-reefer"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-HasReefer"]}
+{"tokens": ["automatic", "transmission", "2022", "Freightliner/Mercedes", "with", "reefer"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Year", "B-Make", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["2", "axles", "5.86", "gear", "ratio", "with", "reefer", "Hydraulic", "brakes"], "tags": ["B-Axles", "I-Axles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "I-HasReefer", "B-Brakes", "I-Brakes"]}
+{"tokens": ["5.86", "gear", "ratio", "silver", "no", "crew", "cab", "non-reefer"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Color", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-HasReefer"]}
+{"tokens": ["2022", "no", "reefer", "Hydraulic", "brakes", "Mercedes", "crew", "cab", "white"], "tags": ["B-Year", "B-HasReefer", "I-HasReefer", "B-Brakes", "I-Brakes", "B-Make", "B-CrewCab", "I-CrewCab", "B-Color"]}
+{"tokens": ["Cummins", "reefer", "van", "Air", "brakes", "250k", "miles", "4", "axles"], "tags": ["B-EngineMake", "B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes", "B-Miles", "I-Miles", "B-Axles", "I-Axles"]}
+{"tokens": ["5.86", "gear", "ratio", "reefer", "gasoline", "Cummins", "Hydraulic", "brakes", "2021"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "B-FuelType", "B-EngineMake", "B-Brakes", "I-Brakes", "B-Year"]}
+{"tokens": ["Cummins", "Engine", "Co.", "box", "truck"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-BodyType", "I-BodyType"]}
+{"tokens": ["2", "axles", "black"], "tags": ["B-Axles", "I-Axles", "B-Color"]}
+{"tokens": ["Cummins", "600000", "miles", "no", "reefer", "5.86", "gear", "ratio", "sleeper", "cab", "10", "speed"], "tags": ["B-EngineMake", "B-Miles", "I-Miles", "B-HasReefer", "I-HasReefer", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["250k", "miles", "2021", "Mercedes", "box", "truck", "Hydraulic", "brakes"], "tags": ["B-Miles", "I-Miles", "B-Year", "B-Make", "B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["6", "speed", "no", "crew", "cab", "reefer", "electric"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-HasReefer", "B-FuelType"]}
+{"tokens": ["Mercedes", "electric", "manual", "transmission", "2020", "red", "600000", "miles"], "tags": ["B-Make", "B-FuelType", "B-TransmissionType", "I-TransmissionType", "B-Year", "B-Color", "B-Miles", "I-Miles"]}
+{"tokens": ["6.5", "gear", "ratio", "no", "sleeper", "cab", "Air", "brakes"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Brakes", "I-Brakes"]}
+{"tokens": ["300,000", "miles", "manual", "transmission"], "tags": ["B-Miles", "I-Miles", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["Air", "brakes", "manual", "transmission"], "tags": ["B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["manual", "transmission", "non-reefer"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-HasReefer"]}
+{"tokens": ["reefer", "2021", "Freightliner/Mercedes", "crew", "cab", "white", "sleeper", "cab"], "tags": ["B-HasReefer", "B-Year", "B-Make", "B-CrewCab", "I-CrewCab", "B-Color", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["3", "axles", "dry", "van"], "tags": ["B-Axles", "I-Axles", "B-BodyType", "I-BodyType"]}
+{"tokens": ["300,000", "miles", "crew", "cab", "Freightliner/Mercedes"], "tags": ["B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "B-Make"]}
+{"tokens": ["manual", "transmission", "reefer", "van", "2021", "no", "reefer", "5.86", "gear", "ratio"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-BodyType", "I-BodyType", "B-Year", "B-HasReefer", "I-HasReefer", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["5.86", "gear", "ratio", "600000", "miles"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Miles", "I-Miles"]}
+{"tokens": ["3", "axles", "crew", "cab", "insulation", "van", "Hydraulic", "brakes"], "tags": ["B-Axles", "I-Axles", "B-CrewCab", "I-CrewCab", "B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["Hydraulic", "brakes", "600000", "miles", "crew", "cab"], "tags": ["B-Brakes", "I-Brakes", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["Freightliner/Mercedes", "Air", "brakes", "3", "axles", "5.86", "gear", "ratio", "manual", "transmission", "10", "speed"], "tags": ["B-Make", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["insulation", "van", "6.5", "gear", "ratio", "manual", "transmission", "non-reefer", "Mercedes", "no", "sleeper", "cab"], "tags": ["B-BodyType", "I-BodyType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-HasReefer", "B-Make", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["2018", "white", "electric", "500k", "miles"], "tags": ["B-Year", "B-Color", "B-FuelType", "B-Miles", "I-Miles"]}
+{"tokens": ["red", "with", "reefer", "crew", "cab", "automatic", "transmission", "2022", "250k", "miles"], "tags": ["B-Color", "B-HasReefer", "I-HasReefer", "B-CrewCab", "I-CrewCab", "B-TransmissionType", "I-TransmissionType", "B-Year", "B-Miles", "I-Miles"]}
+{"tokens": ["dry", "van", "gray", "2022", "reefer", "250k", "miles", "no", "sleeper", "cab"], "tags": ["B-BodyType", "I-BodyType", "B-Color", "B-Year", "B-HasReefer", "B-Miles", "I-Miles", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["Air", "brakes", "hybrid", "6", "speed", "box", "truck"], "tags": ["B-Brakes", "I-Brakes", "B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-BodyType", "I-BodyType"]}
+{"tokens": ["reefer", "gasoline", "Cummins", "600000", "miles", "insulation", "van"], "tags": ["B-HasReefer", "B-FuelType", "B-EngineMake", "B-Miles", "I-Miles", "B-BodyType", "I-BodyType"]}
+{"tokens": ["Hydraulic", "brakes", "manual", "transmission", "electric", "crew", "cab"], "tags": ["B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType", "B-FuelType", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["6.5", "gear", "ratio", "insulation", "van"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-BodyType", "I-BodyType"]}
+{"tokens": ["non-reefer", "2022", "Freightliner/Mercedes", "insulation", "van", "no", "crew", "cab"], "tags": ["B-HasReefer", "B-Year", "B-Make", "B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["2", "axles", "6", "speed", "flatbed", "Air", "brakes", "white"], "tags": ["B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-BodyType", "B-Brakes", "I-Brakes", "B-Color"]}
+{"tokens": ["2022", "diesel"], "tags": ["B-Year", "B-FuelType"]}
+{"tokens": ["crew", "cab", "Freightliner/Mercedes", "Cummins", "Engine", "Co."], "tags": ["B-CrewCab", "I-CrewCab", "B-Make", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["5.86", "gear", "ratio", "Cummins", "Engine", "Co.", "box", "truck", "crew", "cab", "10", "speed"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["2018", "5.86", "gear", "ratio"], "tags": ["B-Year", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["no", "reefer", "no", "sleeper", "cab", "8", "speed", "red", "6.5", "gear", "ratio"], "tags": ["B-HasReefer", "I-HasReefer", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Freightliner/Mercedes", "automatic", "transmission", "300,000", "miles", "no", "crew", "cab"], "tags": ["B-Make", "B-TransmissionType", "I-TransmissionType", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["2021", "6", "speed", "gasoline", "no", "reefer", "Air", "brakes", "600000", "miles"], "tags": ["B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-FuelType", "B-HasReefer", "I-HasReefer", "B-Brakes", "I-Brakes", "B-Miles", "I-Miles"]}
+{"tokens": ["250k", "miles", "Freightliner/Mercedes"], "tags": ["B-Miles", "I-Miles", "B-Make"]}
+{"tokens": ["automatic", "transmission", "no", "sleeper", "cab", "Mercedes"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Make"]}
+{"tokens": ["box", "truck", "Cummins", "gray", "2021"], "tags": ["B-BodyType", "I-BodyType", "B-EngineMake", "B-Color", "B-Year"]}
+{"tokens": ["no", "crew", "cab", "2019", "sleeper", "cab", "Freightliner", "reefer", "dry", "van"], "tags": ["B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Year", "B-SleeperCab", "I-SleeperCab", "B-Make", "B-HasReefer", "B-BodyType", "I-BodyType"]}
+{"tokens": ["box", "truck", "Hydraulic", "brakes", "10", "speed"], "tags": ["B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Cummins", "Freightliner", "2020", "red", "electric"], "tags": ["B-EngineMake", "B-Make", "B-Year", "B-Color", "B-FuelType"]}
+{"tokens": ["4", "axles", "2018", "no", "sleeper", "cab", "manual", "transmission", "Cummins", "black"], "tags": ["B-Axles", "I-Axles", "B-Year", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionType", "I-TransmissionType", "B-EngineMake", "B-Color"]}
+{"tokens": ["reefer", "van", "2", "axles", "10", "speed", "2020", "6.5", "gear", "ratio"], "tags": ["B-BodyType", "I-BodyType", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Year", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["automatic", "transmission", "2", "axles", "diesel", "insulation", "van", "crew", "cab"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles", "B-FuelType", "B-BodyType", "I-BodyType", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["2", "axles", "Freightliner", "reefer", "no", "crew", "cab", "hybrid"], "tags": ["B-Axles", "I-Axles", "B-Make", "B-HasReefer", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-FuelType"]}
+{"tokens": ["dry", "van", "Hydraulic", "brakes", "manual", "transmission", "with", "reefer", "Freightliner/Mercedes", "6.5", "gear", "ratio"], "tags": ["B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes", "B-TransmissionType", "I-TransmissionType", "B-HasReefer", "I-HasReefer", "B-Make", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Air", "brakes", "crew", "cab"], "tags": ["B-Brakes", "I-Brakes", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["insulation", "van", "white", "sleeper", "cab", "no", "crew", "cab", "Air", "brakes"], "tags": ["B-BodyType", "I-BodyType", "B-Color", "B-SleeperCab", "I-SleeperCab", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes"]}
+{"tokens": ["Mercedes", "600000", "miles", "reefer"], "tags": ["B-Make", "B-Miles", "I-Miles", "B-HasReefer"]}
+{"tokens": ["6.5", "gear", "ratio", "black", "flatbed", "6", "speed", "manual", "transmission", "2", "axles"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Color", "B-BodyType", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles"]}
+{"tokens": ["crew", "cab", "box", "truck", "Cummins"], "tags": ["B-CrewCab", "I-CrewCab", "B-BodyType", "I-BodyType", "B-EngineMake"]}
+{"tokens": ["electric", "600000", "miles", "Air", "brakes", "white"], "tags": ["B-FuelType", "B-Miles", "I-Miles", "B-Brakes", "I-Brakes", "B-Color"]}
+{"tokens": ["8", "speed", "electric", "flatbed", "2", "axles", "Hydraulic", "brakes"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-FuelType", "B-BodyType", "B-Axles", "I-Axles", "B-Brakes", "I-Brakes"]}
+{"tokens": ["crew", "cab", "Air", "brakes", "electric", "8", "speed"], "tags": ["B-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Cummins", "Engine", "Co.", "5.86", "gear", "ratio", "2020", "Air", "brakes", "crew", "cab", "with", "reefer"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Year", "B-Brakes", "I-Brakes", "B-CrewCab", "I-CrewCab", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["blue", "flatbed", "diesel"], "tags": ["B-Color", "B-BodyType", "B-FuelType"]}
+{"tokens": ["no", "sleeper", "cab", "10", "speed", "gray"], "tags": ["B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color"]}
+{"tokens": ["gray", "Freightliner", "hybrid", "no", "sleeper", "cab"], "tags": ["B-Color", "B-Make", "B-FuelType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["sleeper", "cab", "5.86", "gear", "ratio", "manual", "transmission", "3", "axles"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-Axles", "I-Axles"]}
+{"tokens": ["dry", "van", "600000", "miles", "no", "sleeper", "cab", "6.5", "gear", "ratio", "automatic", "transmission", "2020"], "tags": ["B-BodyType", "I-BodyType", "B-Miles", "I-Miles", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-Year"]}
+{"tokens": ["diesel", "no", "crew", "cab", "5.86", "gear", "ratio", "manual", "transmission"], "tags": ["B-FuelType", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["Air", "brakes", "Freightliner/Mercedes", "5.86", "gear", "ratio", "no", "reefer"], "tags": ["B-Brakes", "I-Brakes", "B-Make", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["8", "speed", "300,000", "miles", "5.86", "gear", "ratio", "Cummins", "Engine", "Co.", "Mercedes", "no", "crew", "cab"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Miles", "I-Miles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Make", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["Freightliner/Mercedes", "4", "axles", "2018", "Cummins", "300,000", "miles", "blue"], "tags": ["B-Make", "B-Axles", "I-Axles", "B-Year", "B-EngineMake", "B-Miles", "I-Miles", "B-Color"]}
+{"tokens": ["hybrid", "6", "speed"], "tags": ["B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["box", "truck", "no", "reefer", "Freightliner", "2", "axles", "white"], "tags": ["B-BodyType", "I-BodyType", "B-HasReefer", "I-HasReefer", "B-Make", "B-Axles", "I-Axles", "B-Color"]}
+{"tokens": ["automatic", "transmission", "hybrid"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-FuelType"]}
+{"tokens": ["manual", "transmission", "gray"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Color"]}
+{"tokens": ["10", "speed", "red", "manual", "transmission", "no", "crew", "cab", "insulation", "van"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color", "B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-BodyType", "I-BodyType"]}
+{"tokens": ["non-reefer", "insulation", "van", "4", "axles", "5.86", "gear", "ratio", "hybrid", "2022"], "tags": ["B-HasReefer", "B-BodyType", "I-BodyType", "B-Axles", "I-Axles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-FuelType", "B-Year"]}
+{"tokens": ["automatic", "transmission", "Cummins"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-EngineMake"]}
+{"tokens": ["reefer", "van", "6.5", "gear", "ratio", "hybrid", "Hydraulic", "brakes", "Mercedes", "reefer"], "tags": ["B-BodyType", "I-BodyType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-FuelType", "B-Brakes", "I-Brakes", "B-Make", "B-HasReefer"]}
+{"tokens": ["silver", "5.86", "gear", "ratio", "4", "axles", "2018", "manual", "transmission", "no", "crew", "cab"], "tags": ["B-Color", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Axles", "I-Axles", "B-Year", "B-TransmissionType", "I-TransmissionType", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["Freightliner", "Cummins", "Engine", "Co.", "no", "reefer", "8", "speed", "Hydraulic", "brakes", "flatbed"], "tags": ["B-Make", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-HasReefer", "I-HasReefer", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Brakes", "I-Brakes", "B-BodyType"]}
+{"tokens": ["box", "truck", "automatic", "transmission"], "tags": ["B-BodyType", "I-BodyType", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["sleeper", "cab", "Hydraulic", "brakes", "3", "axles", "300,000", "miles", "crew", "cab"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab"]}
+{"tokens": ["Mercedes", "300,000", "miles", "reefer", "4", "axles"], "tags": ["B-Make", "B-Miles", "I-Miles", "B-HasReefer", "B-Axles", "I-Axles"]}
+{"tokens": ["non-reefer", "diesel", "no", "sleeper", "cab"], "tags": ["B-HasReefer", "B-FuelType", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["Hydraulic", "brakes", "300,000", "miles"], "tags": ["B-Brakes", "I-Brakes", "B-Miles", "I-Miles"]}
+{"tokens": ["2022", "5.86", "gear", "ratio", "Freightliner/Mercedes", "reefer"], "tags": ["B-Year", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Make", "B-HasReefer"]}
+{"tokens": ["insulation", "van", "with", "reefer"], "tags": ["B-BodyType", "I-BodyType", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["3", "axles", "with", "reefer", "300,000", "miles", "2022", "6.5", "gear", "ratio"], "tags": ["B-Axles", "I-Axles", "B-HasReefer", "I-HasReefer", "B-Miles", "I-Miles", "B-Year", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["Mercedes", "red", "reefer", "van", "Cummins", "diesel", "2", "axles"], "tags": ["B-Make", "B-Color", "B-BodyType", "I-BodyType", "B-EngineMake", "B-FuelType", "B-Axles", "I-Axles"]}
+{"tokens": ["black", "flatbed", "Freightliner", "2018", "3", "axles"], "tags": ["B-Color", "B-BodyType", "B-Make", "B-Year", "B-Axles", "I-Axles"]}
+{"tokens": ["600000", "miles", "no", "crew", "cab", "Cummins", "Engine", "Co."], "tags": ["B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["10", "speed", "manual", "transmission", "Air", "brakes", "reefer", "van", "250k", "miles", "no", "crew", "cab"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes", "B-BodyType", "I-BodyType", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "I-CrewCab"]}
+{"tokens": ["250k", "miles", "gasoline", "blue", "8", "speed", "5.86", "gear", "ratio", "no", "reefer"], "tags": ["B-Miles", "I-Miles", "B-FuelType", "B-Color", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "I-HasReefer"]}
+{"tokens": ["manual", "transmission", "electric", "5.86", "gear", "ratio", "Cummins", "Engine", "Co."], "tags": ["B-TransmissionType", "I-TransmissionType", "B-FuelType", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["hybrid", "3", "axles", "white"], "tags": ["B-FuelType", "B-Axles", "I-Axles", "B-Color"]}
+{"tokens": ["crew", "cab", "6.5", "gear", "ratio"], "tags": ["B-CrewCab", "I-CrewCab", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["dry", "van", "manual", "transmission"], "tags": ["B-BodyType", "I-BodyType", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["2", "axles", "black", "Cummins"], "tags": ["B-Axles", "I-Axles", "B-Color", "B-EngineMake"]}
+{"tokens": ["Cummins", "Engine", "Co.", "250k", "miles", "crew", "cab", "4", "axles", "10", "speed", "5.86", "gear", "ratio"], "tags": ["B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Miles", "I-Miles", "B-CrewCab", "I-CrewCab", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-GearRatio", "I-GearRatio", "I-GearRatio"]}
+{"tokens": ["red", "Freightliner/Mercedes"], "tags": ["B-Color", "B-Make"]}
+{"tokens": ["with", "reefer", "no", "sleeper", "cab", "2019", "3", "axles", "Cummins", "flatbed"], "tags": ["B-HasReefer", "I-HasReefer", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab", "B-Year", "B-Axles", "I-Axles", "B-EngineMake", "B-BodyType"]}
+{"tokens": ["no", "reefer", "diesel", "500k", "miles", "automatic", "transmission"], "tags": ["B-HasReefer", "I-HasReefer", "B-FuelType", "B-Miles", "I-Miles", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["Mercedes", "Cummins"], "tags": ["B-Make", "B-EngineMake"]}
+{"tokens": ["sleeper", "cab", "box", "truck"], "tags": ["B-SleeperCab", "I-SleeperCab", "B-BodyType", "I-BodyType"]}
+{"tokens": ["flatbed", "reefer", "Cummins", "Engine", "Co.", "Freightliner/Mercedes", "250k", "miles"], "tags": ["B-BodyType", "B-HasReefer", "B-EngineMake", "I-EngineMake", "I-EngineMake", "B-Make", "B-Miles", "I-Miles"]}
+{"tokens": ["6.5", "gear", "ratio", "no", "sleeper", "cab"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-SleeperCab", "I-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["5.86", "gear", "ratio", "with", "reefer", "insulation", "van", "Hydraulic", "brakes", "10", "speed"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-HasReefer", "I-HasReefer", "B-BodyType", "I-BodyType", "B-Brakes", "I-Brakes", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["6", "speed", "gasoline", "insulation", "van", "Cummins", "Engine", "Co."], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-FuelType", "B-BodyType", "I-BodyType", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
+{"tokens": ["6", "speed", "gray", "no", "crew", "cab", "Hydraulic", "brakes", "Cummins"], "tags": ["B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Color", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Brakes", "I-Brakes", "B-EngineMake"]}
+{"tokens": ["gasoline", "no", "crew", "cab", "2", "axles", "2018", "6", "speed"], "tags": ["B-FuelType", "B-CrewCab", "I-CrewCab", "I-CrewCab", "B-Axles", "I-Axles", "B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["Air", "brakes", "500k", "miles", "non-reefer"], "tags": ["B-Brakes", "I-Brakes", "B-Miles", "I-Miles", "B-HasReefer"]}
+{"tokens": ["4", "axles", "Air", "brakes"], "tags": ["B-Axles", "I-Axles", "B-Brakes", "I-Brakes"]}
+{"tokens": ["2", "axles", "6.5", "gear", "ratio", "250k", "miles", "manual", "transmission", "Air", "brakes"], "tags": ["B-Axles", "I-Axles", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-Miles", "I-Miles", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["2021", "Cummins", "5.86", "gear", "ratio", "manual", "transmission", "Hydraulic", "brakes"], "tags": ["B-Year", "B-EngineMake", "B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType", "B-Brakes", "I-Brakes"]}
+{"tokens": ["2018", "Hydraulic", "brakes", "4", "axles", "6", "speed"], "tags": ["B-Year", "B-Brakes", "I-Brakes", "B-Axles", "I-Axles", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["dry", "van", "4", "axles", "gasoline", "6", "speed"], "tags": ["B-BodyType", "I-BodyType", "B-Axles", "I-Axles", "B-FuelType", "B-TransmissionSpeeds", "I-TransmissionSpeeds"]}
+{"tokens": ["5.86", "gear", "ratio", "automatic", "transmission"], "tags": ["B-GearRatio", "I-GearRatio", "I-GearRatio", "B-TransmissionType", "I-TransmissionType"]}
+{"tokens": ["manual", "transmission", "2020", "10", "speed", "Air", "brakes"], "tags": ["B-TransmissionType", "I-TransmissionType", "B-Year", "B-TransmissionSpeeds", "I-TransmissionSpeeds", "B-Brakes", "I-Brakes"]}
+{"tokens": ["4", "axles", "sleeper", "cab"], "tags": ["B-Axles", "I-Axles", "B-SleeperCab", "I-SleeperCab"]}
+{"tokens": ["250k", "miles", "2019", "diesel", "reefer", "white"], "tags": ["B-Miles", "I-Miles", "B-Year", "B-FuelType", "B-HasReefer", "B-Color"]}
+{"tokens": ["300,000", "miles", "Cummins", "Engine", "Co."], "tags": ["B-Miles", "I-Miles", "B-EngineMake", "I-EngineMake", "I-EngineMake"]}
