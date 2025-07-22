@@ -15,7 +15,7 @@ CORS(app)
 
 @app.route("/search", methods=["POST"])
 def search_route():
-    
+
     data = request.get_json()
     query = data.get("query", "")
 
@@ -24,7 +24,7 @@ def search_route():
 
     query_embedding = model.encode(query, convert_to_tensor=True)
     similarities = F.cosine_similarity(query_embedding.unsqueeze(0), embeddings)
-    top_k = 10
+    top_k = 100
     top_results = torch.topk(similarities, k=min(top_k, len(similarities)))
     top_indices = top_results.indices.tolist()
     top_scores = top_results.values.tolist()

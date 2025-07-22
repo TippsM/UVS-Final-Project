@@ -3,10 +3,9 @@ import truckData from '../assets/truck-card-specs.txt';
 import TruckCard from './truck-cards';
 import '../Styles/App.css';
 
-export default function TruckList( {queries} ) {
+export default function TruckList( {priorityList} ) {
 
   //console.log("All saved queries: ", queries)
-
 
   const [allTrucks, setAllTrucks] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
@@ -29,7 +28,9 @@ export default function TruckList( {queries} ) {
     (currentPage + 1) * truckCount
   );
 
-  const priorityList = ['671122', '670953', '670957', '374908', '559997', '881697', '314042', '881987', '771971', '881979']
+  //const priorityList = ['671122', '670953', '670957', '374908', '559997', '881697', '314042', '881987', '771971', '881979']
+
+  if (Array.isArray(priorityList) && priorityList.length > 0) {
 
   allTrucks.sort((a, b) => {
 
@@ -42,6 +43,7 @@ export default function TruckList( {queries} ) {
     return truckOne - truckTwo; // both trucks in the priority list (sort by order of list)
 
   });
+}
 
 
   return (
