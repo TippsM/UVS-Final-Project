@@ -13,6 +13,7 @@ function App() {
     return saved ? JSON.parse(saved) : [];
   });
 
+
   const handleSearch = (query) => {
 
     const existing = JSON.parse(localStorage.getItem('queries')) || [];
@@ -34,21 +35,11 @@ function App() {
           <h3 className="page-sub"> Search Used Vehicles </h3>
           <SearchBar onSearch={handleSearch} />
         </div> 
-        <TruckData queries={queries[queries.length - 1]}/>
+        {/* <TruckData queries={queries[queries.length - 1]}/> */}
       </header>
     </div>
   );
 }
 
 export default App;
-
-{/* <div className="query-history">
-          <h4>Search History:</h4>
-            <ul>
-              {queries.map((query, index) => (
-              <li key={index}>{query}</li>
-              ))}
-           </ul>
-          </div> */}
-
 

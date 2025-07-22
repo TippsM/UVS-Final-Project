@@ -20,11 +20,12 @@
 }
 
 .logo-ryder{
-  height: clamp(30px, 40px, 60px);
+  height: clamp(30px, 50px, 60px);
   width: auto;
   margin-right: 15px;
-  margin-left: 15px;
+  margin-left: 30px;
   cursor: pointer;
+  
 }
 
 .navbar-menu {
@@ -38,12 +39,11 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: clamp(12px, 14px, 20px);
+  font-size: clamp(12px, 19px, 20px);
   position: relative;
   color: black;
   font-weight: bold;
-    white-space: nowrap;
-
+  white-space: nowrap;
 
 }
 
@@ -66,7 +66,7 @@
 }
 
 .contact-button {
-  padding: 10px 10px;
+  padding: 15px 15px;
   background-color: #e43235;
   color: rgb(253, 251, 251);
   font-weight: bold;
@@ -74,7 +74,7 @@
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
-  font-size: clamp(12px, 10px, 17px);
+  font-size: clamp(12px, 15px, 17px);
   white-space: nowrap;
 
 }
@@ -99,7 +99,7 @@
 }
 
 .flag-icon {
-  height: clamp(15px, 20px, 30px);
+  height: clamp(15px, 30px, 30px);
   margin-left: 15px;
   border-radius: 2px;
 }
