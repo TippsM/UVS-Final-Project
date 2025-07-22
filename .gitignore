@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+/.vs
+/backend/bert_model
+/trained_model/checkpoint-340
+/.vs/slnx.sqlite
