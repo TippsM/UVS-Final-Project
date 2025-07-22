@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import '../Styles/App.css';
 import searchLogo from '../assets/search-logo.svg';
+import TruckData from '../Components/truck-list.jsx';
 
-function SearchBar({ onSearch }) {
+
+function SearchBar({ onSearch}) {
   const [query, setQuery] = useState('');
+  const [priorityList, setPriorityList] = useState([]);
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -21,10 +25,20 @@ function SearchBar({ onSearch }) {
       const data = await response.json();
       if(data.error){
         console.log('Search results:', data.error);
+        
       }else{
         console.log('Search results:', data.results);
 
       }
+
+      const truckList = data.results.map(item => {
+        const match = item.match;
+        const matchResult = match.match(/Vehicle ID:\s*(\d+)/);
+        return matchResult ? matchResult[1] : undefined;
+      });
+
+      setPriorityList(truckList);
+
 
       // Optionally pass results up
       // onSearchResults(data.results);
@@ -56,6 +70,10 @@ function SearchBar({ onSearch }) {
           </button>
         </div>
       </form>
+      <div className="card-grid">
+
+      <TruckData priorityList={priorityList} />
+      </div>
 
     </>
   );
