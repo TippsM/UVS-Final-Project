@@ -13,7 +13,10 @@
 }
 
 
+
 .navbar-logo {
+  display: flex;
+  align-items: center;    
   display: flex;
   align-items: center;    
 }
@@ -40,6 +43,7 @@
   align-items: center;
   cursor: pointer;
   font-size: clamp(12px, 14px, 20px);
+  font-size: clamp(12px, 14px, 20px);
   position: relative;
   color: black;
   font-weight: bold;
@@ -56,6 +60,7 @@
   align-items: center;
   gap: 10px;
   margin-right: 60px;
+  padding: 20px 10px;
   padding: 20px 10px;
 }
 
@@ -112,5 +117,4 @@
   cursor: pointer;
   margin-left: -30px;
   width: 100%;
-
 }

@@ -2,47 +2,154 @@ import json
 from torch import nn
 import torch
 from sentence_transformers import SentenceTransformer
-import os
+from transformers import AutoTokenizer, AutoModelForTokenClassification, AutoModelForSequenceClassification
 import torch.nn.functional as F
-import math
- 
+from transformers import pipeline
+import re
 
-# Search query (example search bar..)
+# NER model
+tokenizer_ner = AutoTokenizer.from_pretrained("./backend/bert_model")
+model_ner = AutoModelForTokenClassification.from_pretrained("./backend/bert_model")
+model_ner.eval()
+
+# vector model
+model = SentenceTransformer(r"C:\all-MiniLM-L6-v2")
+
+# classification model 
+tokenizer = AutoTokenizer.from_pretrained(r"C:\Users\00432491\bart-large-mnli")
+model1 = AutoModelForSequenceClassification.from_pretrained(r"C:\Users\00432491\bart-large-mnli")
+classifier = pipeline("zero-shot-classification", model=model1, tokenizer=tokenizer, multi_label=True)
+
+# Load vehicle specs
 query = input("Search for a vehicle: ")
+vehicle_ids = []
 
-   
-with open("../Data/flat-vehicle-specs.txt", "r", encoding="utf-8") as f:
+with open("Data/flat-vehicle-specs.txt", "r", encoding="utf-8") as f:
     text_to_embed = [line.strip() for line in f.readlines()]
+    for line in text_to_embed:
+        line = line.strip()
+        if "Vehicle ID:" in line:
+            vehicle_id = line.split("Vehicle ID:")[1].split(",")[0].strip()
+            vehicle_ids.append(vehicle_id)
 
+fields = [
+    "Color", "Body Type", "Has Reefer", "Miles", "Year", "Make",
+    "Engine Make", "Fuel Type", "Transmission Type", "Transmission Speeds",
+    "Crew Cab", "Sleeper Cab", "Axles", "Brakes", "Gear Ratio"
+]
 
+#  ENTITY EXTRACTION 
+def extract_entities(text):
+    words = text.split()
+    inputs = tokenizer_ner(words, return_tensors="pt", is_split_into_words=True, truncation=True)
+    with torch.no_grad():
+        outputs = model_ner(**inputs)
 
+    logits = outputs.logits
+    predictions = torch.argmax(logits, dim=2)[0].tolist()
+    word_ids = inputs.word_ids()
+    id2label = model_ner.config.id2label
 
-model = SentenceTransformer(r"nlp_model\all-MiniLM-L6-v2")
-embeddings = model.encode(text_to_embed, convert_to_tensor = True)
+    entities = {}
+    current_label = None
+    current_entity_tokens = []
 
+    for idx, word_id in enumerate(word_ids):
+        if word_id is None:
+            continue
 
+        label = id2label[predictions[idx]]
 
-def search(query, top_k=10):
-    query_embedding = model.encode(query, convert_to_tensor=True)
+        if label.startswith("B-"):
+            if current_label and current_entity_tokens:
+                entities[current_label] = " ".join(current_entity_tokens)
+            current_label = label[2:]
+            current_entity_tokens = [words[word_id]]
+        elif label.startswith("I-") and current_label:
+            current_entity_tokens.append(words[word_id])
+        else:
+            if current_label and current_entity_tokens:
+                entities[current_label] = " ".join(current_entity_tokens)
+            current_label = None
+            current_entity_tokens = []
+
+    if current_label and current_entity_tokens:
+        entities[current_label] = " ".join(current_entity_tokens)
+
+    return entities
+
+#  HELPER: get field value from line #
+def get_field_value(text_line, field_name):
+    pattern = rf"{field_name}:\s*([^,]+)"
+    match = re.search(pattern, text_line, re.IGNORECASE)
+    return match.group(1).strip() if match else ""
+
+#  SEARCH WITH COMBINED SCORING 
+def search(query, extracted_entities=None, top_k=10, entity_sim_threshold=0.5, entity_weight=0.6):
+    clean_query = " ".join(extracted_entities.values()) if extracted_entities else query
+    print("\nVector search using:", clean_query)
+
+    query_embedding = model.encode(clean_query, convert_to_tensor=True)
     similarities = F.cosine_similarity(query_embedding.unsqueeze(0), embeddings)
 
-    actual_k = min(top_k, len(similarities))
-    if actual_k == 0:
+    scores_combined = []
+    for idx, vec_sim in enumerate(similarities):
+        if extracted_entities:
+            entity_sims = []
+            match_text = text_to_embed[idx]
+            for field, value in extracted_entities.items():
+                candidate_value = get_field_value(match_text, field)
+                if not candidate_value:
+                    entity_sims.append(0)
+                    continue
+
+                entity_emb = model.encode(value, convert_to_tensor=True)
+                candidate_emb = model.encode(candidate_value, convert_to_tensor=True)
+                sim = F.cosine_similarity(entity_emb.unsqueeze(0), candidate_emb.unsqueeze(0)).item()
+                entity_sims.append(sim)
+
+            avg_entity_sim = sum(entity_sims) / len(entity_sims) if entity_sims else 0
+
+            if avg_entity_sim < entity_sim_threshold:
+                combined_score = -1.0
+            else:
+                combined_score = entity_weight * avg_entity_sim + (1 - entity_weight) * vec_sim
+        else:
+            combined_score = vec_sim
+
+        scores_combined.append((idx, combined_score))
+
+    filtered_scores = [(idx, score) for idx, score in scores_combined if score >= 0]
+
+    filtered_scores.sort(key=lambda x: x[1], reverse=True)
+
+    top_results = filtered_scores[:top_k]
+
+    if not top_results:
+        print("No filtered results matched all entities with threshold =", entity_sim_threshold)
         return [], []
 
-    top_results = torch.topk(similarities, k=actual_k)
-    top_indices = top_results.indices.tolist()
-    top_scores = top_results.values.tolist()
+    top_indices = [idx for idx, _ in top_results]
+    top_scores = [score for _, score in top_results]
+
     return top_indices, top_scores
 
 
-top_indices, top_scores = search(query)
+# MAIN 
+extracted_entities = extract_entities(query)
+print("Extracted entities:", extracted_entities)
 
-for idx, score in zip(top_indices, top_scores):
-    print(f"Score: {score:.4f}")
-    print(f"Match: {text_to_embed[idx]}")
-    print("--------")
+embeddings = model.encode(text_to_embed, convert_to_tensor=True)
+top_indices, top_scores = search(query, extracted_entities=extracted_entities)
 
+print("\nSearch Results:")
+if top_indices:
+    for idx, score in zip(top_indices, top_scores):
+        print(f"\nScore: {score:.4f}")
+        print(f"Match: {text_to_embed[idx]}")
+        print("--------")
+else:
+    print("No matches found.")
 
 ##code to read json into flat file and save into file to then feed into embedding 
 

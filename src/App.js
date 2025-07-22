@@ -2,7 +2,6 @@ import './Styles/App.css'; // this stays the same (unless you move it too)
 import SearchBar from './Components/Searchbar';
 import Navbar from './Components/Navigation-menu';
 import React, { useState } from 'react';
-import TruckData from './Components/truck-list.jsx'
 
 
 function App() {
@@ -21,8 +20,6 @@ function App() {
     const updatedQueries = [...existing, query];
     setQueries(updatedQueries);
     localStorage.setItem('queries', JSON.stringify(updatedQueries));
-
-    //return updatedQueries;
     console.log("All saved queries: ", updatedQueries)
   };
 
@@ -31,7 +28,7 @@ function App() {
         <header className="App-header">
           <Navbar/>
         <div className='page-container'>
-          <p className="page-title">Ryder Used Vehicle Inventory</p>
+          <h2 className="page-title">Ryder Used Vehicle Inventory</h2>
           <h3 className="page-sub"> Search Used Vehicles </h3>
           <SearchBar onSearch={handleSearch} />
         </div> 
